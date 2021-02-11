@@ -1,0 +1,1336 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+projet_dietetique
+</name>
+</assembly>
+<members>
+<member name="T:projet_dietetique.My.Resources.Resources">
+<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.ResourceManager">
+<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.Culture">
+<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.add">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.add_square_button">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.add_square_button__1_">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.add_square_button__2_">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.add1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.baseline_arrow_back_black_24dp">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.baseline_arrow_back_white_24dp">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.baseline_sync_black_24dp">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.baseline_sync_black_36dp">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.baseline_sync_white_36dp">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.ic_clear_white_24dp_1x">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.ic_close_black_24dp_1x">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.ic_remove_black_24dp_1x">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.ic_remove_white_24dp_1x">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.ic_remove_white_24dp_2x">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.ic_sync_white_32dp_1x">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.imageedit_1_7835113469">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.itextsharp">
+<summary>
+  Recherche une ressource localisée de type System.Byte[].
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.itextsharp_pdfa">
+<summary>
+  Recherche une ressource localisée de type System.Byte[].
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.itextsharp_xtra">
+<summary>
+  Recherche une ressource localisée de type System.Byte[].
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.pencil">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.pencil__1_">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.rubbish_bin">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:projet_dietetique.My.Resources.Resources.rubbish_bin1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:projet_dietetique.Connexion.Requete2(System.String)">
+ <summary>
+ Fonction qui effectue une requête à la base de données et recupère la donnée reçu dans une variable de type string'
+ fait par Sébastien Poulain
+ </summary>
+ <param name="req"></param>
+ On met en paramètre la requête que l'on veut faire sur la base de données.
+ <returns></returns>
+ La fonction va récupérer le contenu de la requête et la mettre dans une variable de type string.
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_connexionCours.connexion(System.Object,System.EventArgs)">
+ <summary>
+  Méthode qui gère l'événement du double clic, elle fait afficher le formulaire principal lorsque l'on double clic sur un cours.
+  fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_connexionUtls.connexion">
+ <summary>
+ Méthode qui vérifie si l'utilisateur et le mot de passe sont dans le dataset, il compare le mot de passe crypté de la bd à la valeur crypter du mot de passe écrit dans le textbox txtMtp.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_connexionUtls.btnQuitter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur le bouton btnQuitter, un message de confirmation pour savoir si on veut vraiment quitter
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_exercices_A.usr_exercices_A_Load(System.Object,System.EventArgs)">
+ <summary>
+ Méthode load , changement de l'index de la combo box type et statut pour 4 et 2 ce qui correspond à tous.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_exercices_A.RecupererEx">
+ <summary>
+ Méthode qui récupère tous les exercices et ajout du case 4 qui correspond à rechercher par tous.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>'
+</member>
+<member name="M:projet_dietetique.usr_gestion_fournisseurs.Trouver_ID_Fournisseur(System.String,System.String,System.String,System.String)">
+ <summary>
+ Fonction servant à trouver le numéro d'identification d'un fournisseur via 4 critères.
+ </summary>
+ <param name="nom_fournisseur">Le nom du fournisseur (la case 0 du dgv)</param>
+ <param name="adresse">L'adresse du fournisseur (la case 1 du dgv)</param>
+ <param name="ville">La ville du fournisseur ((la case 2 du dgv)</param>
+ <param name="code_postal">Le code postal du fournisseur (la case 3 du dgv)</param>
+ <returns></returns>
+</member>
+<member name="M:projet_dietetique.usr_gestion_fournisseurs.Verification_Lignes">
+ <summary>
+ Va permettre de vérifier si le nombre de lignes retournées par la requête est 0, ou si c'est plus que 0.
+ Dans le cas où c'est 0, on affiche un panel indiquant qu'il n'y aura pas de fournisseurs disponibles.
+ Dans le cas contraire, on enlève le panel, on met à jour le datagridview et on affiche les numéros de téléphone.
+ </summary>
+</member>
+<member name="M:projet_dietetique.usr_gestion_fournisseurs.Afficher_Telephones(System.String,System.String)">
+ <summary>
+ Méthode servant à afficher les numéros de téléphones des fournisseurs dans la DataGridView dgv_telephones.
+ </summary>
+ <param name="id_fournisseur"> Le numéro de fournisseur, que l'on obtient via Trouver_ID_Fournisseur </param>
+ <param name="nom_fournisseur"> Le nom du fournisseur, que l'on obtient avec la DataGridView dgv_fournisseurs</param>
+</member>
+<member name="M:projet_dietetique.usr_gestion_fournisseurs.Existe_Deja(System.String,System.String,System.String,System.String)">
+ <summary>
+ Fonction permettant de contrôler les doublons! Si les 4 critères concordent, le fournisseur existe déjà et on doit donc empêcher l'ajout.
+ </summary>
+ <param name="nom_fournisseur">Le nom du fournisseur (la case 0 du dgv)</param>
+ <param name="adresse">L'adresse du fournisseur (la case 1 du dgv)</param>
+ <param name="ville">La ville du fournisseur ((la case 2 du dgv)</param>
+ <param name="code_postal">Le code postal du fournisseur (la case 3 du dgv)</param>
+ <returns></returns>
+</member>
+<member name="T:projet_dietetique.usr_ajout_allergene">
+ <summary>
+ Contrôle utilisateur qui permet l'ajout d'un nouvel allergène.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_allergene.btn_annuler_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur le bouton btn_annuler, elle ferme le formulaire ajoutProduit.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_allergene.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur le bouton btn_ajouter_allergene,  elle fait les vérifications et ajoute l'allergène dans la base de données.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_allergene.btn_MouseEnter(System.Windows.Forms.Button,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur les boutons btn_ajouter_allergene et btn_annuler, on change la couleur du texte et du boutton  lorsque la souris entre dans le bouton.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_allergene.btn_MouseLeave(System.Windows.Forms.Button,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur les boutons btn_ajouter_allergene et btn_annuler, on change la couleur du texte et du boutton  lorsque la souris quitte la zone du bouton.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_allergene.timer_Allergene_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du tick pour le timer timer_allergene
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_allergene.timer_Allergene2_Tick(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du tick pour le timer timer_succes
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_allergene.Position_Label_Erreur">
+ <summary>
+ Méthode qui change la position du label en fonction du type d'erreur
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_allergene.Vider_Textbox">
+ <summary>
+ Méthode qui vide la textbox txt_allergene
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_allergene.Focus_Textbox">
+ <summary>
+ Méthode met le focus sur la textbox txt_allergene
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_allergene.AllergeneExiste(System.String)">
+ <summary>
+ Fonction qui vérifie si l'allergène existe déjà dans la base de données.
+ </summary>
+ <param name="allergene"></param>
+ <returns></returns>
+ retourne true si l'allergène existe déjà dans la bd et false sinon.
+ <tag>2019</tag>
+</member>
+<member name="T:projet_dietetique.usr_Changer_Taux_Taxes">
+ <summary>
+ Contrôle utilisateur permettant de changer le taux des taxes.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_Changer_Taux_Taxes.btn_annuler_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur le bouton btn_annuler, elle ferme le formulaire changer_taux_taxes.
+ fait par Sébastien Poulain
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:projet_dietetique.usr_Changer_Taux_Taxes.btn_MouseEnter(System.Windows.Forms.Button,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur les boutons btn_modifier et btn_annuler, on change la couleur du texte et du boutton  lorsque la souris entre dans le bouton.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_Changer_Taux_Taxes.btn_MouseLeave(System.Windows.Forms.Button,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur les boutons btn_modifier et btn_annuler, on change la couleur du texte et du boutton  lorsque la souris quitte la zone du bouton.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_Changer_Taux_Taxes.btn_modifier_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur le bouton btn_modifier, elle vérifie si les taux sont valides et modifie ceux-ci.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="T:projet_dietetique.usr_historique_taxes">
+ <summary>
+ Contrôle utilisateur permettant d'afficher les divers changements des taux de taxes.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_historique_taxes.RemplirGrid">
+ <summary>
+ Méthode qui ajoute au datagridview les données provenant du dataset.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_historique_taxes.Charger_DS">
+ <summary>
+ Méthode qui ajoute au dataset les données des taxes provenant de la base de données.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_historique_taxes.btn_MouseEnter(System.Windows.Forms.Button,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur les boutons btn_sauvegarder_taxes et btn_annuler, on change la couleur du texte et du boutton  lorsque la souris entre dans le bouton.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_historique_taxes.btn_MouseLeave(System.Windows.Forms.Button,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur les boutons btn_sauvegarder_taxes et btn_annuler, on change la couleur du texte et du boutton  lorsque la souris quitte la zone du bouton.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_historique_taxes.btn_annuler_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur le bouton btn_annuler, elle ferme le formulaire historique_taxes.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_historique_taxes.AjouterPourcentage">
+ <summary>
+ Méthode pour ajouter le signe de % dans le datagridview.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_historique_taxes.btn_sauvegarder_taxes_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur le bouton btn_sauvegarder_taxes, elle permet de sauvegarder le contenu du datagridview dans un fichier csv pour conserver les changements de taxes.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="T:projet_dietetique.usr_ajout_produit">
+ <summary>
+ contrôle utilisateur permettant d'ajouter un produit.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.btn_annuler_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur le bouton btn_annuler, vide la liste d'allergènes et ferme le formulaire d'ajout d'allergènes.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Recuperer_Produits(System.String)">
+ <summary>
+ Méthode qui récupère les produits et les taxes, ils vont dans des datasets.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Remplir_Controles">
+ <summary>
+ Méthode qui remplit les contrôles à partir du dataset des produits et des taxes.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Taxe_Trouvee(System.String)">
+ <summary>
+ Fonction qui recherche les produits qui ont des taxes.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Verifier_Nom_Produit(System.String)">
+ <summary>
+ Fonction qui vérifie que le nom de produit respecte les critères définis dans le regex.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Verifier_Marque(System.String)">
+ <summary>
+ Fonction qui vérifie que la marque de produit respecte les critères définis dans le regex.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Verifier_Categorie">
+ <summary>
+ Fonction qui vérifie qu'une catégorie est sélectionnée lors de l'ajout d'un produit.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Verifier_Perissable(System.String)">
+ <summary>
+ Fonction qui vérifie qu'une valeur est sélectionnée dans le champs perissable lors de l'ajout d'un produit.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Verifier_Format(System.String)">
+ <summary>
+ Fonction qui vérifie qu'un format est sélectionnée lors de l'ajout d'un produit.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Verifier_Mesure">
+ <summary>
+ Fonction qui vérifie qu'une unité de mesure est sélectionner lors de l'ajout d'un produit.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Verifier_Quantite(System.String)">
+ <summary>
+ Fonction qui vérifie que la quantité respecte les critères définis dans le regex.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Verifier_Bio(System.String)">
+ <summary>
+ Fonction qui vérifie qu'un élément du champs Bio est sélectionner lors de l'ajout d'un produit.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Verifier_Ensemble">
+ <summary>
+ Fonction qui vérifie si tous les champs ont passés les vérifications avant d'ajouter le produit.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Existe_Deja(System.String,System.String,System.Double)">
+ <summary>
+ Fonction qui vérifie si le produit existe déjà dans la base de données.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.txt_espace_keyword_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+ <summary>
+ Méthode permettant de changer de ligne,car textbox multilignes.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.#ctor">
+ <summary>
+ Constructeur par défaut.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.#ctor(System.Int32,System.String)">
+ <summary>
+  Constructeur paramétré.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Vider_Textboxes">
+ <summary>
+ Méthode qui vide les textboxes.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Remplir_Unites(System.Data.DataSet,MySql.Data.MySqlClient.MySqlDataAdapter,projet_dietetique.Connexion,System.Windows.Forms.ContextMenuStrip)">
+ <summary>
+ Méthode qui remplit les unites à l'aide du dataset de produits.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.DropDownItemClicked(System.Windows.Forms.ToolStripItem,System.EventArgs)">
+ <summary>
+ Méthode qui affiche le nom de la mesure choisit en fonction du choix effectué dans le toolstripitem.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.btnMesure_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui affiche les différents mesures.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.usr_ajouter_produit_MouseWheel(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ Méthode qui  cache les unités de mesure en utilisant la molette de la souris.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Trouver_Format">
+ <summary>
+ Fonction qui  récupère le format et le place dans le dataset.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Trouver_Categorie">
+ <summary>
+ Fonction qui  récupère la catégorie et la place dans le dataset.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Trouver_Mesure">
+ <summary>
+ Fonction qui  récupère la mesure et la place dans le dataset.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.recupererAllergene">
+ <summary>
+ Méthode qui  permet d'aller les allergènes de la base de données pour les mettre dans un dataset.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.creerLstAllergene">
+ <summary>
+ Méthode qui  rempli la listbox des allergènes enregistrés dnas la BD
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.clearList">
+ <summary>
+ Méthode qui  efface les éléments de la checkedboxlist des allergènes.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.btn_MouseEnter(System.Windows.Forms.Button,System.EventArgs)">
+ <summary>
+ Méthode qui  change la couleur du texte et du fond du bouton quand la souris entre dans bouton.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.btn_MouseLeave(System.Windows.Forms.Button,System.EventArgs)">
+ <summary>
+ Méthode qui change la couleur du texte et du fond du bouton quand la souris quitte le bouton.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.btn_valider_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui vérifie les éléments avant d'ajouter le produit, si les vérifications ont passées alors on vide la liste d'allergènes et ferme le formulaire.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Ajouter_Produit">
+ <summary>
+ Méthode qui ajoute le produit à la base de données.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Ajouter_Taxes">
+ <summary>
+ Méthode qui ajoute les taxes avec le produit dans la bd si les champs de taxes sont cochés.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajout_produit.Ajouter_Allergene">
+ <summary>
+ Fonction permettant d'ajouter les allergènes cochés dans la base de données.
+ fait par Sébastien Poulain
+ </summary>
+ <returns></returns>
+ retourne une chaine de caractères avec tous les allergènes cochés.
+</member>
+<member name="T:projet_dietetique.recette">
+ <summary>
+  <tag > 2019 </tag>
+  toutes les méthodes qui géré l'onglet recette
+ </summary>
+</member>
+<member name="M:projet_dietetique.recette.btn_imp_image_Click(System.Object,System.EventArgs)">
+ <summary>
+ ajoute une image dans le pickture box
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:projet_dietetique.usr_comparer_commande.charger_liste_etu_remi(System.String)">
+ <summary>
+  <tag > 2019 </tag>
+  rempli le dataset des utilisateur qui on remi des commandes
+   guillaume ricard 
+ </summary>
+</member>
+<member name="M:projet_dietetique.usr_comparer_commande.couleur_remise_commande">
+ <summary>
+  <tag > 2019 </tag>
+  met la bonne couleur a l'utilisateur qui on remi recette
+  guillaume ricard 
+ </summary>
+</member>
+<member name="M:projet_dietetique.usr_comparer_commande.btn_sauvegarder_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui permet de sauvegarder le travail de l'élève sélectionné en pdf. Modification de l'entête, ajout du nom de cours,nom de l'exercice,date du jour, nom de l'étudiant.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_comparer_commande.Button1_Click_1(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur le bouton btn_travaux. Lorsque l'on fait un clic sur ce bouton, cela nous permet de télécharger tous les travaux de tous les élèves pour l'exercice sélectionné.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="T:projet_dietetique.usr_recette_etu">
+ <summary>
+ <tag > 2019 </tag>
+ le usr_recette_exercie permet d'afficher les recettes et exercies puis de les associer ensemble pour les étudiants
+ </summary>
+</member>
+<member name="T:projet_dietetique.usr_recette_exercice">
+ <summary>
+ <tag > 2019 </tag>
+ le usr_recette_exercie permet d'afficher les recettes et exercies puis de les associer ensemble Pour les admins et professeurs
+ </summary>
+</member>
+<member name="M:projet_dietetique.usr_recette_exercice.usr_recette_exercice_Load(System.Object,System.EventArgs)">
+ <summary>
+ appelle tous les élément utile pour l'affichage des interfaces
+ <tag > 2019 </tag>
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:projet_dietetique.usr_recette_exercice.evenenement_Cocher_R(System.Object,System.EventArgs)">
+ <summary>
+ <tag > 2019 </tag>
+  permet de gerer le clic sur chacun des boutons qui seront générés
+ </summary>
+</member>
+<member name="M:projet_dietetique.usr_recette_exercice.evenenement_Cocher_E(System.Object,System.EventArgs)">
+ <summary>
+ <tag > 2019 </tag>
+ permet de gerer le clic sur chacun des boutons qui seront générés 
+ </summary>
+</member>
+<member name="M:projet_dietetique.usr_recette_exercice.recupererEx">
+ <summary>
+ <tag > 2019 </tag>
+ récupére les exercices dans la Bd
+ </summary>
+</member>
+<member name="M:projet_dietetique.usr_recette_exercice.recupererRecette">
+ <summary>
+ <tag > 2019 </tag>
+ récupére les recette dans la Bd
+ </summary>
+</member>
+<member name="M:projet_dietetique.usr_recette_exercice.recupererRecetteExercice">
+ <summary>
+ <tag > 2019 </tag>
+ vas chercher les recette et exercice dans la tbl_exercice_recette
+ </summary>
+</member>
+<member name="M:projet_dietetique.usr_recette_exercice.creerlisteRecette_exercice_R_E">
+ <summary>
+ <tag > 2019 </tag>
+ remplis la check list des recettes et exercice 
+ </summary>
+</member>
+<member name="M:projet_dietetique.usr_recette_exercice.creerLstNomRecette">
+ <summary>
+ <tag > 2019 </tag>
+  remplis la checklist des recettes enregistrer dans la BD
+ </summary>
+</member>
+<member name="M:projet_dietetique.usr_recette_exercice.creerLstexercice">
+ <summary>
+ <tag > 2019 </tag>
+  remplis la checklist des exercice enregistrer danss la BD
+ </summary>
+</member>
+<member name="M:projet_dietetique.usr_recette_exercice.btn_confirm_lier_Click(System.Object,System.EventArgs)">
+ <summary>
+ <tag > 2019 </tag>
+  lie la recette a l'exerice au cliquant sur le bouton
+ </summary>
+</member>
+<member name="M:projet_dietetique.usr_recette_exercice.insert_update_tab_Recette_Exercice">
+ <summary>
+ <tag > 2019 </tag>
+    vérifi si l'exercice et la recette sont déja lier, 
+    vas faire un insert ou vas faire un message d'erreur
+ </summary>
+</member>
+<member name="M:projet_dietetique.usr_recette_exercice.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ <tag > 2019 </tag>
+    Permert de délier les recettes est exercices a partir d'une selection réalisé dans la checklist
+ </summary>
+</member>
+<member name="M:projet_dietetique.usr_recette_exercice.btn_MouseEnter(System.Windows.Forms.Button,System.EventArgs)">
+ <summary>
+ Méthode qui  change la couleur du texte et du fond du bouton quand la souris entre dans bouton.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_recette_exercice.btn_MouseLeave(System.Windows.Forms.Button,System.EventArgs)">
+ <summary>
+ Méthode qui change la couleur du texte et du fond du bouton quand la souris quitte le bouton.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_associer_fournisseur.Form1_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <description>
+ 
+ Région dédiée à la manipulation de la fenêtre via <composant name="pnlNavigation"/> qui remplace la bordure du formulaire originale.
+ 
+ <fonctionnalites>
+ Déplacement de la fenêtre lorsqu'on tient le bouton gauche de la souris sur le paneau
+ <bouton name="btn_minimize"/> sert à minimiser la fenêtre lorsque cliqué
+ <bouton name="btn_exit"/> sert à quitter l'application lorsque cliqué
+ </fonctionnalites>
+ 
+ </description>
+</member>
+<member name="M:projet_dietetique.frm_associer_produit.Form1_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <description>
+ 
+ Région dédiée à la manipulation de la fenêtre via <composant name="pnlNavigation"/> qui remplace la bordure du formulaire originale.
+ 
+ <fonctionnalites>
+ Déplacement de la fenêtre lorsqu'on tient le bouton gauche de la souris sur le paneau
+ <bouton name="btn_minimize"/> sert à minimiser la fenêtre lorsque cliqué
+ <bouton name="btn_exit"/> sert à quitter l'application lorsque cliqué
+ </fonctionnalites>
+ 
+ </description>
+</member>
+<member name="M:projet_dietetique.frm_sauvegarde_commande.evenement_sauvegarder(System.Object,System.EventArgs)">
+ <summary>
+ Évenement pour sauvegarder le fichier pdf'
+ Ajouter nom cours,nom exercice et la date dans le pdf lignes de code : 1192-1209
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_rech_gestion_produit.Button1_Click_1(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur le bouton btn_Ajout_Allergene, elle fait afficher le formulaire ajout_allergene.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_rech_gestion_produit.btn_Taux_taxes_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur le bouton btn_Taux_taxes, elle fait afficher le formulaire changer_taux_taxes.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_rech_gestion_produit.btn_historique_taxes_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur le bouton btn_historique_taxes, elle fait afficher le formulaire historique_taxes.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_profil.btn_mdp_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur le bouton btn_mdp, permet de changer de mot de passe, ajoute le nouveau mot de passe crypté dans la base de données.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_ajouter_utls.Ajout">
+ <summary>
+ Méthode qui ajoute un utilisateur, son mot de passe est crypté avant l'insertion dans la bd (ligne 81).
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_generer_utls.Ajout">
+ <summary>
+ Méthode qui  génère les utilisateurs, les mots de passe sont encryptés. (ligne 75)
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_nouveau_mdp.GenererNvMdp">
+ <summary>
+ Méthode qui génère un nouveau mot de passe pour chacun des utilisateurs, et l'update dans la bd, le mot de passe est crypté avant l'insertiton dans la bd.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_commandes.remplir_info">
+ <summary>
+ Méthode qui rempli les informations du produit sélectionné , changement du format du prix unitaire 
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_exercices.usr_exercices_Load(System.Object,System.EventArgs)">
+ <summary>
+  Méthode load, changement de l'index du statut par défaut de 1 à 0 pour afficher tous.
+  fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.usr_gestion_admin.Boutons_Click(System.Windows.Forms.Button,System.EventArgs)">
+ <description>
+ Cette région est dédiée à la manipulation du menu en raison d'un besoin de faciliter l'identification de où l'utilisateur se situe dans le logiciel.
+ 
+ <fonctionnalites>
+ Changement de couleurs des boutons lorsqu'on passe le curseur de la souris dessus.
+ Vérification du bouton cliqué (style onglet) par <variable name="section_choisie"/>.
+ </fonctionnalites>
+ 
+ </description>
+</member>
+<member name="M:projet_dietetique.usr_gestion_admin.btn_deconnexion_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur le bouton btn_deconnexion, ajout d'un message de confirmation lors de la déconnexion.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="T:projet_dietetique.frm_ajout_allergene">
+ <summary>
+  formulaire affichant le contenu du contrôle utilisateur usr_ajout_allergene.
+   fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_ajout_allergene.btn_exit_Click(System.Object,System.EventArgs)">
+ <summary>
+  méthode qui fait en sorte que l'on quitte le formulaire si on clique sur le bouton btn_exit.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_ajout_allergene.btn_minimize_Click(System.Object,System.EventArgs)">
+ <summary>
+  méthode qui fait en sorte que l'on réduit le formulaire si on clique sur le bouton btn_minimize.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_ajout_allergene.Form1_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+   méthode qui gère l'enfoncement de la souris.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_ajout_allergene.Form1_MouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+  méthode qui gère le déplacement de la fenêtre lorsque la souris est enfoncée.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_ajout_allergene.Form1_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+   méthode qui gère le relâchement de la souris.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="T:projet_dietetique.frm_ajout_produit">
+ <summary>
+  formulaire affichant le contenu du contrôle utilisateur usr_ajout_produit.
+   fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_ajout_produit.btn_exit_Click(System.Object,System.EventArgs)">
+ <summary>
+  méthode qui fait en sorte que l'on quitte le formulaire si on clique sur le bouton btn_exit.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_ajout_produit.btn_minimize_Click(System.Object,System.EventArgs)">
+ <summary>
+  méthode qui fait en sorte que l'on réduit le formulaire si on clique sur le bouton btn_minimize.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_ajout_produit.Form1_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+   méthode qui gère l'enfoncement de la souris.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_ajout_produit.Form1_MouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+  méthode qui gère le déplacement de la fenêtre lorsque la souris est enfoncée.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_ajout_produit.Form1_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+   méthode qui gère le relâchement de la souris.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="T:projet_dietetique.frm_changer_taux_taxes">
+ <summary>
+  formulaire affichant le contenu du contrôle utilisateur usr_Changer_Taux_Taxes.
+   fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_changer_taux_taxes.btn_exit_Click(System.Object,System.EventArgs)">
+ <summary>
+  méthode qui fait en sorte que l'on quitte le formulaire si on clique sur le bouton btn_exit.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_changer_taux_taxes.btn_minimize_Click(System.Object,System.EventArgs)">
+ <summary>
+  méthode qui fait en sorte que l'on réduit le formulaire si on clique sur le bouton btn_minimize.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_changer_taux_taxes.Form1_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+   méthode qui gère l'enfoncement de la souris.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_changer_taux_taxes.Form1_MouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+  méthode qui gère le déplacement de la fenêtre lorsque la souris est enfoncée.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_changer_taux_taxes.Form1_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+   méthode qui gère le relâchement de la souris.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="T:projet_dietetique.frm_historique_taxes">
+ <summary>
+  formulaire affichant le contenu du contrôle utilisateur usr_historique_taxes.
+   fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_historique_taxes.btn_exit_Click(System.Object,System.EventArgs)">
+ <summary>
+  méthode qui fait en sorte que l'on quitte le formulaire si on clique sur le bouton btn_exit.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_historique_taxes.btn_minimize_Click(System.Object,System.EventArgs)">
+ <summary>
+  méthode qui fait en sorte que l'on réduit le formulaire si on clique sur le bouton btn_minimize.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_historique_taxes.Form1_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+   méthode qui gère l'enfoncement de la souris.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_historique_taxes.Form1_MouseMove(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+  méthode qui gère le déplacement de la fenêtre lorsque la souris est enfoncée.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_historique_taxes.Form1_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+   méthode qui gère le relâchement de la souris.
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="T:projet_dietetique.Frm_recette">
+ <summary>
+ formulaire qui appel le contrôle utilisateur usr_recette_exercice
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="T:projet_dietetique.frmDietetique">
+ <summary>
+ Formulaire principal où vont apparaître les contrôles utilisateurs dans un panel de taille 1280 par 655.
+ Cliquer sur un des boutons de la barre de menu va faire apparaître le contrôle utilisateur associé au texte à l'intérieur.
+ </summary>
+</member>
+<member name="F:projet_dietetique.frmDietetique.section_choisie">
+ <summary> 
+ La section choisie va principalement affecter les procédures liées à la barre de menu et à sa navigation.
+ <seealso cref="M:projet_dietetique.frmDietetique.Boutons_Click(System.Object,System.EventArgs)"/><seealso cref="M:projet_dietetique.frmDietetique.Boutons_MouseHover(System.Windows.Forms.Button,System.EventArgs)"/><seealso cref="M:projet_dietetique.frmDietetique.Boutons_MouseLeave(System.Windows.Forms.Button,System.EventArgs)"/><seealso cref="M:projet_dietetique.frmDietetique.Adapter_Couleurs"/>
+ </summary>
+</member>
+<member name="F:projet_dietetique.frmDietetique.usr_exerc_lst_e">
+ <summary>
+ création des usr Recette et Recette Exercice
+ <tag> 2019 > </tag>
+ </summary>
+ 
+</member>
+<member name="M:projet_dietetique.frmDietetique.Verifier_Titre(System.Char)">
+ <summary>
+ Procédure pour vérifier le titre de l'utilisateur.
+ Le titre passé en paramètre va faire la distinction entre un utilisateur étudiant (e), enseignant (p), ou administrateur (a).
+ Les droits vont différer selon le titre.
+ </summary>
+</member>
+<member name="M:projet_dietetique.frmDietetique.Boutons_Click(System.Windows.Forms.Button,System.EventArgs)">
+ <description>
+ Cette région est dédiée à la manipulation du menu en raison d'un besoin de faciliter l'identification de où l'utilisateur se situe dans le logiciel.
+ 
+ <fonctionnalites>
+ Changement de couleurs des boutons lorsqu'on passe le curseur de la souris dessus.
+ Vérification du bouton cliqué (style onglet) par <variable name="section_choisie"/>.
+ </fonctionnalites>
+ </description>
+</member>
+<member name="M:projet_dietetique.frmDietetique.Adapter_Couleurs">
+ <summary>
+ Adapte la couleur des boutons du menu selon celui qui est sélectionné.
+ </summary>
+</member>
+<member name="M:projet_dietetique.frmDietetique.Adapter_UserControl(System.Windows.Forms.Button)">
+ <summary>
+ Détermine quel controle utilisateur est présenté.
+ </summary>
+ <param name="btn">Bouton de la section sélectionnée.</param>
+ 
+</member>
+<member name="M:projet_dietetique.frmDietetique.Form1_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <description>
+ 
+ Région dédiée à la manipulation de la fenêtre via <composant name="pnlNavigation"/> qui remplace la bordure du formulaire originale.
+ 
+ <fonctionnalites>
+ Déplacement de la fenêtre lorsqu'on tient le bouton gauche de la souris sur le paneau
+ <bouton name="btn_minimize"/> sert à minimiser la fenêtre lorsque cliqué
+ <bouton name="btn_exit"/> sert à quitter l'application lorsque cliqué
+ </fonctionnalites>
+ 
+ </description>
+</member>
+<member name="M:projet_dietetique.frmDietetique.btn_exit_Click(System.Object,System.EventArgs)">
+ <summary>
+ méthode qui gère l'événement du clique du bouton btn_exit.
+ Ajout du message de confirmation pour savoir si l'utilisateur veut vraiment quitter l'application
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.mod_function_utls.UppercaseFirstLetter(System.String)">
+ <summary>
+ Fonction servant à convertir la première lettre d'un mot en Majuscule
+ fait par Sébastien Poulain
+ </summary>
+ <param name="val"></param>
+ On met le mot complet en paramètre (string)
+ <returns></returns>
+ si la valeur est null ou vide on retourne cette valeur sinon on retourne la nouvelle chaine de caractères.
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.mod_function_utls.GetMd5Hash(System.String)">
+ <summary>
+ Fonction servant à crypter les mots de passe lors de l'insertion de ceux-ci dans la base de données.
+ fait par Sébastien Poulain
+ </summary>
+ <param name="source"></param>
+ On met en paramètre la valeur des mots de passe en claire.
+ <returns></returns>
+ On retourne une chaine de caractères en format hexadécimal qui correspond au mot de passe, mais crypté.
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.mod_gestion_BD.Upper_Premier_Char(System.String)">
+ <summary>
+ Sert à convertir la première lettre d'un string en majuscule.
+ </summary>
+ <param name="_str">Un string (ex. un nom, une ville...)</param>
+ <returns></returns>
+</member>
+<member name="M:projet_dietetique.mod_gestion_BD.Ecrire_Erreur(System.String,System.Windows.Forms.Label@,System.String,System.String)">
+ <summary>
+ Survient lorsqu'il y a une erreur dans une tentative (dans ce cas-ci, le MANQUE de tentative) d'ajout d'un élément dit obligatoire.
+ </summary>
+ <param name="_string">Le string, venant d'une textbox, qui a causé l'erreur.</param>
+ <param name="lbl_erreur">Le label qui va décrire l'erreur en question</param>
+ <param name="message_1">Un premier message dû à le TextBox qui est vide.</param>
+ <param name="message_2">Un deuxième message pour les autres erreurs (on présume ici une erreur dans le Regex)</param>
+</member>
+<member name="M:projet_dietetique.mod_gestion_BD.corriger_null(System.String@)">
+ <summary>
+ Va prendre un string et va le rendre vide s'il est nul.
+ </summary>
+ <param name="item">Un string.</param>
+ <returns></returns>
+</member>
+<member name="M:projet_dietetique.mod_gestion_BD.Ajuster_CodePostal(System.String)">
+ <summary>
+ Ajuster le code postal pour ajouter l'espace à la quatrième position (position 3 si on part de 0)
+ </summary>
+ <param name="cp">Code postal</param>
+ <returns>Un code postal sous le modèle "A1A 1A1"</returns>
+</member>
+<member name="M:projet_dietetique.mod_gestion_BD.changeDecimal(System.String)">
+ <summary>
+ Modifie le caractère de séparation d'un nombre selon sa culture.
+ </summary>
+ <param name="val"></param>
+ <returns>La valeur à modifier.</returns>
+</member>
+<member name="T:projet_dietetique.mod_recherches">
+ <summary>
+ Module servant à rassembler toutes les fonctions de recherche. 
+ Toutes ces fonctions résultent en une requête que l'on va demander à la base de données.
+ </summary>
+</member>
+<member name="M:projet_dietetique.mod_recherches.Rechercher_Selon_Contenu(System.String,System.Windows.Forms.ComboBox,System.String)">
+ <summary>
+ Rechercher un attribut ou un string dans une des colonnes de la BD.
+ </summary>
+ <param name="colonne"> Désigne la colonne dans laquelle on va rechercher</param>
+ <param name="choix"> Le choix, via ComboBox, pour décider si on veut que l'on recherche par contenu ou par début.</param>
+ <param name="rech"> L'attribut ou le string de recherche.</param>
+ <returns></returns>
+</member>
+<member name="M:projet_dietetique.mod_recherches.Rechercher_Categories(System.String)">
+ <summary>
+ Rechercher par la catégorie
+ </summary>
+ <param name="categorie"> Vient via le ComboBox. Les catégories sont générées depuis la base de données via une procédure. </param>
+ <returns></returns>
+</member>
+<member name="M:projet_dietetique.mod_recherches.Rechercher_Allergenes(System.String,System.String)">
+ <summary>
+ Recherche par allergènes.
+ Va avoir une version surchargée de Verifier_MotsCles
+ </summary>
+ <param name="choix_allergenes"> C'est le texte venant du ComboBox pour choisir par quelle façon on va rechercher dans les allergènes. </param>
+ <param name="mots_cles"> C'est les mots clés. Ne sera pas nécessairement utilisé (seulement dans la recherche par mot clé)</param>
+ <returns></returns>
+</member>
+<member name="M:projet_dietetique.mod_recherches.Rechercher_Description(System.String,System.String)">
+ <summary>
+ Recherche par description
+ </summary>
+ <param name="choix_description"> C'est le texte venant du ComboBox pour choisir par quelle façon on va rechercher dans la description.</param>
+ <param name="mots_cles"> C'est les mots clés. Ne sera pas nécessairement utilisé (utilisé seulement dans la recherche par mot clé)</param>
+ <returns></returns>
+</member>
+<member name="M:projet_dietetique.mod_recherches.Rechercher_Description_inventaire(System.String,System.String)">
+ <summary>
+ Recherche par description inventaire
+ </summary>
+ <param name="choix_description"> C'est le texte venant du ComboBox pour choisir par quelle façon on va rechercher dans la description.</param>
+ <param name="mots_cles"> C'est les mots clés. Ne sera pas nécessairement utilisé (utilisé seulement dans la recherche par mot clé)</param>
+ <returns></returns>
+</member>
+<member name="M:projet_dietetique.mod_recherches.Verifier_MotsCles(System.String,System.String)">
+ <summary>
+ Recherche des mots clés via la description. Une version surchargée existe pour les allergènes.
+ </summary>
+ <param name="_kw"> Les mots clés.</param>
+ <param name="colonne"> La colonne où l'on va rechercher les mots clés par la description</param>
+ <returns> Une autre partie de la requête finale. </returns>
+</member>
+<member name="M:projet_dietetique.mod_recherches.Verifier_MotsCles(System.String,System.String,System.String)">
+ <summary>
+ Recherche par mot clé (version surchargée pour les allergènes)
+ </summary>
+ <param name="_kw"> Les mots clés qui seront séparés </param>
+ <param name="colonne"> La colonne dans laquelle on va rechercher. </param>
+ <param name="critere_recherche"> CONTIENT ou NE CONTIENT PAS. (en bref) </param>
+ <returns></returns>
+</member>
+<member name="M:projet_dietetique.mod_recherches.Rechercher_Perissable(System.Windows.Forms.RadioButton,System.Windows.Forms.RadioButton)">
+ <summary>
+ Rechercher par périssables. Si c'est oui, alors oui, Si non... c'est non.
+ </summary>
+ <param name="radio_oui"> Vérification si c'est coché ou pas (true or false) </param>
+ <param name="radio_non"> Idem. </param>
+ <returns></returns>
+</member>
+<member name="M:projet_dietetique.mod_recherches.Verifier_Tri(System.String,System.String)">
+ <summary>
+ Comment on va trier les éléments de la base de données.
+ </summary>
+ <param name="choix"> Par quel élément? </param>
+ <param name="ordre"> En ordre croissant? Décroissant? </param>
+ <returns></returns>
+</member>
+<member name="M:projet_dietetique.mod_recherches.Verifier_Ordre(System.String)">
+ <summary>
+ Vérification de l'ordre. Utilisé dans Verifier_Tri.
+ </summary>
+ <param name="ordre"> En ordre croissant, ou décroissant. </param>
+ <returns></returns>
+</member>
+<member name="M:projet_dietetique.mod_recherches.Rechercher_Telephone(System.String@)">
+ <summary>
+ 
+ </summary>
+ <param name="telephone">Le numéro de téléphone que l'on veut rechercher (via la textbox)</param>
+ <returns></returns>
+</member>
+<member name="M:projet_dietetique.mod_regex.Taux_Taxes_Ok(System.String)">
+ <summary>
+ Fonction qui vérifie si le taux de taxes entré est valide.
+ fait par Sébastien Poulain
+ </summary>
+ <param name="str"></param>
+ taux en paramètre
+ <returns></returns>
+ retourne true si valide sinon false
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.mod_regex.Est_Allergene(System.String)">
+ <summary>
+ Fonction déterminant si l'allergène que l'on désire ajouter à la liste des allergènes correspond au regex établit ci-dessous.
+ fait par Sébastien Poulain
+ </summary>
+ <param name="str"></param>
+ On prend en paramètre le nom de l'allergène que l'on veut ajouter
+ <returns></returns>
+ On retourne true si il correspond ou false si il ne correspond pas
+ <tag>2019</tag>
+</member>
+<member name="M:projet_dietetique.frm_connexion.Form1_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <description>
+ 
+ Région dédiée à la manipulation de la fenêtre via <composant name="pnlNavigation"/> qui remplace la bordure du formulaire originale.
+ 
+ <fonctionnalites>
+ Déplacement de la fenêtre lorsqu'on tient le bouton gauche de la souris sur le paneau
+ <bouton name="btn_minimize"/> sert à minimiser la fenêtre lorsque cliqué
+ <bouton name="btn_exit"/> sert à quitter l'application lorsque cliqué
+ </fonctionnalites>
+ 
+ </description>
+</member>
+<member name="M:projet_dietetique.frm_connexion.btn_exit_Click(System.Object,System.EventArgs)">
+ <summary>
+ méthode qui gère l'événement du clic sur le bouton btn_exit.
+ Ajout d'un message de confirmation pour valider les intentions de l'utilisateur.
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+<member name="T:projet_dietetique.usr_produits">
+ <description>
+ Keven Abel.
+ 
+ Le contrôle utilisateur 'usr_produits'.
+ C'est sur cette interface que l'on peut naviguer à travers la table des produits selon leur activité (un produit inactif n'apparaîtra pas).
+ On peut rechercher un produit selon certains critères afin de faciliter une navigation plus précise.
+ 
+ </description>
+</member>
+<member name="M:projet_dietetique.usr_produits.btnAjouter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Méthode qui gère l'événement du clic sur le bouton btnAjouter, cela fait apparaître le formulaire formAjout
+ fait par Sébastien Poulain
+ </summary>
+ <tag>2019</tag>
+</member>
+</members>
+</doc>

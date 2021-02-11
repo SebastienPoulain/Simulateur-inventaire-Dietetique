@@ -1,0 +1,969 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="9a034cfb-5485-4210-9874-bed423c837fd" Title="projet_dietetique Namespace" Url="html/N-projet_dietetique.htm">
+    <HelpTOCNode Id="3f5d149d-53ac-4e14-9a82-f57ad1596dc9" Title="Connexion Class" Url="html/T-projet_dietetique.Connexion.htm">
+      <HelpTOCNode Title="Connexion Members" Url="html/AllMembers.T-projet_dietetique.Connexion.htm" />
+      <HelpTOCNode Title="Connexion Constructor " Url="html/M-projet_dietetique.Connexion.-ctor.htm" />
+      <HelpTOCNode Id="7f9bfdc1-47ae-4900-b597-1febe8fb72d3" Title="Connexion Fields" Url="html/Fields.T-projet_dietetique.Connexion.htm">
+        <HelpTOCNode Title="_ConnectionStringMain Field" Url="html/F-projet_dietetique.Connexion._ConnectionStringMain.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1384a1cc-cd96-4d91-b4bf-bd08cf2e2e85" Title="Connexion Methods" Url="html/Methods.T-projet_dietetique.Connexion.htm">
+        <HelpTOCNode Title="InsDelUpd Method " Url="html/M-projet_dietetique.Connexion.InsDelUpd.htm" />
+        <HelpTOCNode Title="miseAjourBD Method " Url="html/M-projet_dietetique.Connexion.miseAjourBD.htm" />
+        <HelpTOCNode Title="miseAjourDS Method " Url="html/M-projet_dietetique.Connexion.miseAjourDS.htm" />
+        <HelpTOCNode Id="61e1ae21-d90e-4dca-abcc-9750b1f1815c" Title="Requete Method " Url="html/Overload-projet_dietetique.Connexion.Requete.htm">
+          <HelpTOCNode Title="Requete Method (String, DataSet, MySqlDataAdapter, String)" Url="html/M-projet_dietetique.Connexion.Requete.htm" />
+          <HelpTOCNode Title="Requete Method (String)" Url="html/M-projet_dietetique.Connexion.Requete_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Requete2 Method " Url="html/M-projet_dietetique.Connexion.Requete2.htm" />
+        <HelpTOCNode Title="test_connexion Method " Url="html/M-projet_dietetique.Connexion.test_connexion.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8f594932-84a5-4c0d-a174-5ddb25f2a6eb" Title="Connexion Properties" Url="html/Properties.T-projet_dietetique.Connexion.htm">
+        <HelpTOCNode Title="ConnectionStringMain Property " Url="html/P-projet_dietetique.Connexion.ConnectionStringMain.htm" />
+        <HelpTOCNode Title="position Property " Url="html/P-projet_dietetique.Connexion.position.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b4d7170a-6c3b-4ff8-92df-c6287d115e32" Title="frm_ajout_allergene Class" Url="html/T-projet_dietetique.frm_ajout_allergene.htm">
+      <HelpTOCNode Title="frm_ajout_allergene Members" Url="html/AllMembers.T-projet_dietetique.frm_ajout_allergene.htm" />
+      <HelpTOCNode Title="frm_ajout_allergene Methods" Url="html/Methods.T-projet_dietetique.frm_ajout_allergene.htm" />
+      <HelpTOCNode Title="frm_ajout_allergene Properties" Url="html/Properties.T-projet_dietetique.frm_ajout_allergene.htm" />
+      <HelpTOCNode Title="frm_ajout_allergene Events" Url="html/Events.T-projet_dietetique.frm_ajout_allergene.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="90f639ea-a8f8-4f30-b344-e5adfb26be24" Title="frm_ajout_produit Class" Url="html/T-projet_dietetique.frm_ajout_produit.htm">
+      <HelpTOCNode Title="frm_ajout_produit Members" Url="html/AllMembers.T-projet_dietetique.frm_ajout_produit.htm" />
+      <HelpTOCNode Title="frm_ajout_produit Methods" Url="html/Methods.T-projet_dietetique.frm_ajout_produit.htm" />
+      <HelpTOCNode Title="frm_ajout_produit Properties" Url="html/Properties.T-projet_dietetique.frm_ajout_produit.htm" />
+      <HelpTOCNode Title="frm_ajout_produit Events" Url="html/Events.T-projet_dietetique.frm_ajout_produit.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9d08c4c8-9dd7-4c50-b793-9bf69c3ce3ef" Title="frm_associer_fournisseur Class" Url="html/T-projet_dietetique.frm_associer_fournisseur.htm">
+      <HelpTOCNode Title="frm_associer_fournisseur Members" Url="html/AllMembers.T-projet_dietetique.frm_associer_fournisseur.htm" />
+      <HelpTOCNode Title="frm_associer_fournisseur Constructor " Url="html/M-projet_dietetique.frm_associer_fournisseur.-ctor.htm" />
+      <HelpTOCNode Id="27d497ed-2744-4f10-8e77-37ad7bb383ab" Title="frm_associer_fournisseur Methods" Url="html/Methods.T-projet_dietetique.frm_associer_fournisseur.htm">
+        <HelpTOCNode Title="Anti_Doublon_NA Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Anti_Doublon_NA.htm" />
+        <HelpTOCNode Title="Deja_Associe Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Deja_Associe.htm" />
+        <HelpTOCNode Title="Desactiver_Lien Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Desactiver_Lien.htm" />
+        <HelpTOCNode Title="Est_Different Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Est_Different.htm" />
+        <HelpTOCNode Title="Faire_Lien Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Faire_Lien.htm" />
+        <HelpTOCNode Title="Identifier_Produit Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Identifier_Produit.htm" />
+        <HelpTOCNode Title="Liste_OK Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Liste_OK.htm" />
+        <HelpTOCNode Title="MAJ Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.MAJ.htm" />
+        <HelpTOCNode Title="Message_Refus Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Message_Refus.htm" />
+        <HelpTOCNode Title="Prix_OK Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Prix_OK.htm" />
+        <HelpTOCNode Title="Rechercher Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Rechercher.htm" />
+        <HelpTOCNode Title="Recuperer_Associes Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Recuperer_Associes.htm" />
+        <HelpTOCNode Title="Recuperer_Non_Associes Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Recuperer_Non_Associes.htm" />
+        <HelpTOCNode Title="Recuperer_Selection Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Recuperer_Selection.htm" />
+        <HelpTOCNode Title="Remplir_Associes Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Remplir_Associes.htm" />
+        <HelpTOCNode Title="Remplir_Non_Associes Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Remplir_Non_Associes.htm" />
+        <HelpTOCNode Title="Transfert_Valide Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Transfert_Valide.htm" />
+        <HelpTOCNode Title="Trouver_Prix Method " Url="html/M-projet_dietetique.frm_associer_fournisseur.Trouver_Prix.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frm_associer_fournisseur Properties" Url="html/Properties.T-projet_dietetique.frm_associer_fournisseur.htm" />
+      <HelpTOCNode Title="frm_associer_fournisseur Events" Url="html/Events.T-projet_dietetique.frm_associer_fournisseur.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="375483d9-07fb-48a6-9a25-e5d7af07272e" Title="frm_associer_produit Class" Url="html/T-projet_dietetique.frm_associer_produit.htm">
+      <HelpTOCNode Title="frm_associer_produit Members" Url="html/AllMembers.T-projet_dietetique.frm_associer_produit.htm" />
+      <HelpTOCNode Title="frm_associer_produit Constructor " Url="html/M-projet_dietetique.frm_associer_produit.-ctor.htm" />
+      <HelpTOCNode Id="4f75390c-ec8e-442a-b7fb-bd11f703df9b" Title="frm_associer_produit Methods" Url="html/Methods.T-projet_dietetique.frm_associer_produit.htm">
+        <HelpTOCNode Title="Anti_Doublon_NA Method " Url="html/M-projet_dietetique.frm_associer_produit.Anti_Doublon_NA.htm" />
+        <HelpTOCNode Title="Deja_Associe Method " Url="html/M-projet_dietetique.frm_associer_produit.Deja_Associe.htm" />
+        <HelpTOCNode Title="Desactiver_Lien Method " Url="html/M-projet_dietetique.frm_associer_produit.Desactiver_Lien.htm" />
+        <HelpTOCNode Title="Est_Different Method " Url="html/M-projet_dietetique.frm_associer_produit.Est_Different.htm" />
+        <HelpTOCNode Title="Faire_Lien Method " Url="html/M-projet_dietetique.frm_associer_produit.Faire_Lien.htm" />
+        <HelpTOCNode Title="Identifier_Fournisseur Method " Url="html/M-projet_dietetique.frm_associer_produit.Identifier_Fournisseur.htm" />
+        <HelpTOCNode Title="Liste_OK Method " Url="html/M-projet_dietetique.frm_associer_produit.Liste_OK.htm" />
+        <HelpTOCNode Title="MAJ Method " Url="html/M-projet_dietetique.frm_associer_produit.MAJ.htm" />
+        <HelpTOCNode Title="Message_Refus Method " Url="html/M-projet_dietetique.frm_associer_produit.Message_Refus.htm" />
+        <HelpTOCNode Title="Prix_OK Method " Url="html/M-projet_dietetique.frm_associer_produit.Prix_OK.htm" />
+        <HelpTOCNode Title="Rechercher Method " Url="html/M-projet_dietetique.frm_associer_produit.Rechercher.htm" />
+        <HelpTOCNode Title="Recuperer_Associes Method " Url="html/M-projet_dietetique.frm_associer_produit.Recuperer_Associes.htm" />
+        <HelpTOCNode Title="Recuperer_Non_Associes Method " Url="html/M-projet_dietetique.frm_associer_produit.Recuperer_Non_Associes.htm" />
+        <HelpTOCNode Title="Recuperer_Selection Method " Url="html/M-projet_dietetique.frm_associer_produit.Recuperer_Selection.htm" />
+        <HelpTOCNode Title="Remplir_Associes Method " Url="html/M-projet_dietetique.frm_associer_produit.Remplir_Associes.htm" />
+        <HelpTOCNode Title="Remplir_Non_Associes Method " Url="html/M-projet_dietetique.frm_associer_produit.Remplir_Non_Associes.htm" />
+        <HelpTOCNode Title="Transfert_Valide Method " Url="html/M-projet_dietetique.frm_associer_produit.Transfert_Valide.htm" />
+        <HelpTOCNode Title="Trouver_Prix Method " Url="html/M-projet_dietetique.frm_associer_produit.Trouver_Prix.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frm_associer_produit Properties" Url="html/Properties.T-projet_dietetique.frm_associer_produit.htm" />
+      <HelpTOCNode Title="frm_associer_produit Events" Url="html/Events.T-projet_dietetique.frm_associer_produit.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5952bddb-d6f2-4362-a92d-2e85bd66098b" Title="frm_changer_mdp Class" Url="html/T-projet_dietetique.frm_changer_mdp.htm">
+      <HelpTOCNode Title="frm_changer_mdp Members" Url="html/AllMembers.T-projet_dietetique.frm_changer_mdp.htm" />
+      <HelpTOCNode Title="frm_changer_mdp Constructor " Url="html/M-projet_dietetique.frm_changer_mdp.-ctor.htm" />
+      <HelpTOCNode Title="frm_changer_mdp Methods" Url="html/Methods.T-projet_dietetique.frm_changer_mdp.htm" />
+      <HelpTOCNode Id="8b7e8187-bcf2-427a-86af-117ebdfd85fa" Title="frm_changer_mdp Properties" Url="html/Properties.T-projet_dietetique.frm_changer_mdp.htm">
+        <HelpTOCNode Title="MotDePasse Property " Url="html/P-projet_dietetique.frm_changer_mdp.MotDePasse.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frm_changer_mdp Events" Url="html/Events.T-projet_dietetique.frm_changer_mdp.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c71234a2-6c95-457a-91e7-931d1cd3827e" Title="frm_changer_taux_taxes Class" Url="html/T-projet_dietetique.frm_changer_taux_taxes.htm">
+      <HelpTOCNode Title="frm_changer_taux_taxes Members" Url="html/AllMembers.T-projet_dietetique.frm_changer_taux_taxes.htm" />
+      <HelpTOCNode Title="frm_changer_taux_taxes Methods" Url="html/Methods.T-projet_dietetique.frm_changer_taux_taxes.htm" />
+      <HelpTOCNode Title="frm_changer_taux_taxes Properties" Url="html/Properties.T-projet_dietetique.frm_changer_taux_taxes.htm" />
+      <HelpTOCNode Title="frm_changer_taux_taxes Events" Url="html/Events.T-projet_dietetique.frm_changer_taux_taxes.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="4140efb8-18ef-4aed-8735-cd28b728b96e" Title="frm_connexion Class" Url="html/T-projet_dietetique.frm_connexion.htm">
+      <HelpTOCNode Title="frm_connexion Members" Url="html/AllMembers.T-projet_dietetique.frm_connexion.htm" />
+      <HelpTOCNode Id="cc18f174-491d-40e8-9d21-6d2189470b92" Title="frm_connexion Methods" Url="html/Methods.T-projet_dietetique.frm_connexion.htm">
+        <HelpTOCNode Title="ProchainUser Method " Url="html/M-projet_dietetique.frm_connexion.ProchainUser.htm" />
+        <HelpTOCNode Title="Reset Method " Url="html/M-projet_dietetique.frm_connexion.Reset.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frm_connexion Properties" Url="html/Properties.T-projet_dietetique.frm_connexion.htm" />
+      <HelpTOCNode Title="frm_connexion Events" Url="html/Events.T-projet_dietetique.frm_connexion.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e4e44fdc-8f7b-4a9d-9780-c226fd5a9a3d" Title="frm_details_produit Class" Url="html/T-projet_dietetique.frm_details_produit.htm">
+      <HelpTOCNode Title="frm_details_produit Members" Url="html/AllMembers.T-projet_dietetique.frm_details_produit.htm" />
+      <HelpTOCNode Id="453352fa-264b-4a33-8c53-15a5fc81bdd7" Title="frm_details_produit Constructor " Url="html/Overload-projet_dietetique.frm_details_produit.-ctor.htm">
+        <HelpTOCNode Title="frm_details_produit Constructor (String)" Url="html/M-projet_dietetique.frm_details_produit.-ctor.htm" />
+        <HelpTOCNode Title="frm_details_produit Constructor (String, String, Utilisateur, String)" Url="html/M-projet_dietetique.frm_details_produit.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0bf7e9bb-95fe-43c4-848e-b1646455d05c" Title="frm_details_produit Methods" Url="html/Methods.T-projet_dietetique.frm_details_produit.htm">
+        <HelpTOCNode Title="Charger_DS Method " Url="html/M-projet_dietetique.frm_details_produit.Charger_DS.htm" />
+        <HelpTOCNode Title="Charger_DS_inventaire Method " Url="html/M-projet_dietetique.frm_details_produit.Charger_DS_inventaire.htm" />
+        <HelpTOCNode Title="Remplir_Controles Method " Url="html/M-projet_dietetique.frm_details_produit.Remplir_Controles.htm" />
+        <HelpTOCNode Title="Remplir_Controles_inventaire Method " Url="html/M-projet_dietetique.frm_details_produit.Remplir_Controles_inventaire.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frm_details_produit Properties" Url="html/Properties.T-projet_dietetique.frm_details_produit.htm" />
+      <HelpTOCNode Title="frm_details_produit Events" Url="html/Events.T-projet_dietetique.frm_details_produit.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7dd4f800-1552-4ffe-92f0-99680b772b6d" Title="frm_historique_taxes Class" Url="html/T-projet_dietetique.frm_historique_taxes.htm">
+      <HelpTOCNode Title="frm_historique_taxes Members" Url="html/AllMembers.T-projet_dietetique.frm_historique_taxes.htm" />
+      <HelpTOCNode Title="frm_historique_taxes Methods" Url="html/Methods.T-projet_dietetique.frm_historique_taxes.htm" />
+      <HelpTOCNode Title="frm_historique_taxes Properties" Url="html/Properties.T-projet_dietetique.frm_historique_taxes.htm" />
+      <HelpTOCNode Title="frm_historique_taxes Events" Url="html/Events.T-projet_dietetique.frm_historique_taxes.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ab9b086c-4d3d-45d8-b59c-d23f60a9ee85" Title="frm_modifier_exercice Class" Url="html/T-projet_dietetique.frm_modifier_exercice.htm">
+      <HelpTOCNode Title="frm_modifier_exercice Members" Url="html/AllMembers.T-projet_dietetique.frm_modifier_exercice.htm" />
+      <HelpTOCNode Id="9542a3a6-5090-4908-9308-0063d5088079" Title="frm_modifier_exercice Constructor " Url="html/Overload-projet_dietetique.frm_modifier_exercice.-ctor.htm">
+        <HelpTOCNode Title="frm_modifier_exercice Constructor (Utilisateur, String)" Url="html/M-projet_dietetique.frm_modifier_exercice.-ctor.htm" />
+        <HelpTOCNode Title="frm_modifier_exercice Constructor (Int32, String, String, Boolean, Boolean, DateTime)" Url="html/M-projet_dietetique.frm_modifier_exercice.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frm_modifier_exercice Methods" Url="html/Methods.T-projet_dietetique.frm_modifier_exercice.htm" />
+      <HelpTOCNode Id="9ac42b9d-3fe2-45c9-8cdd-2c683a44e078" Title="frm_modifier_exercice Properties" Url="html/Properties.T-projet_dietetique.frm_modifier_exercice.htm">
+        <HelpTOCNode Title="Modif Property " Url="html/P-projet_dietetique.frm_modifier_exercice.Modif.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frm_modifier_exercice Events" Url="html/Events.T-projet_dietetique.frm_modifier_exercice.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a372a955-0378-4710-9c58-877f4238a804" Title="frm_modifier_inventaire Class" Url="html/T-projet_dietetique.frm_modifier_inventaire.htm">
+      <HelpTOCNode Title="frm_modifier_inventaire Members" Url="html/AllMembers.T-projet_dietetique.frm_modifier_inventaire.htm" />
+      <HelpTOCNode Title="frm_modifier_inventaire Constructor " Url="html/M-projet_dietetique.frm_modifier_inventaire.-ctor.htm" />
+      <HelpTOCNode Title="frm_modifier_inventaire Methods" Url="html/Methods.T-projet_dietetique.frm_modifier_inventaire.htm" />
+      <HelpTOCNode Id="25434e89-921f-470d-a88f-82f9200cddbd" Title="frm_modifier_inventaire Properties" Url="html/Properties.T-projet_dietetique.frm_modifier_inventaire.htm">
+        <HelpTOCNode Title="prodModifie Property " Url="html/P-projet_dietetique.frm_modifier_inventaire.prodModifie.htm" />
+        <HelpTOCNode Title="succesModif Property " Url="html/P-projet_dietetique.frm_modifier_inventaire.succesModif.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frm_modifier_inventaire Events" Url="html/Events.T-projet_dietetique.frm_modifier_inventaire.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e6847a55-ae06-4b15-95ad-14295a59edfd" Title="frm_modifierNom Class" Url="html/T-projet_dietetique.frm_modifierNom.htm">
+      <HelpTOCNode Title="frm_modifierNom Members" Url="html/AllMembers.T-projet_dietetique.frm_modifierNom.htm" />
+      <HelpTOCNode Id="aabca257-060b-4e2a-bf7d-b61024c2be3b" Title="frm_modifierNom Constructor " Url="html/Overload-projet_dietetique.frm_modifierNom.-ctor.htm">
+        <HelpTOCNode Title="frm_modifierNom Constructor (String)" Url="html/M-projet_dietetique.frm_modifierNom.-ctor.htm" />
+        <HelpTOCNode Title="frm_modifierNom Constructor (String, String, String)" Url="html/M-projet_dietetique.frm_modifierNom.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frm_modifierNom Methods" Url="html/Methods.T-projet_dietetique.frm_modifierNom.htm" />
+      <HelpTOCNode Id="102288c4-9257-4a1d-950d-b6f175af101a" Title="frm_modifierNom Properties" Url="html/Properties.T-projet_dietetique.frm_modifierNom.htm">
+        <HelpTOCNode Title="Nom Property " Url="html/P-projet_dietetique.frm_modifierNom.Nom.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frm_modifierNom Events" Url="html/Events.T-projet_dietetique.frm_modifierNom.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="28dc4548-1414-4de8-aabc-d1a961d37306" Title="frm_produit_inventaire Class" Url="html/T-projet_dietetique.frm_produit_inventaire.htm">
+      <HelpTOCNode Title="frm_produit_inventaire Members" Url="html/AllMembers.T-projet_dietetique.frm_produit_inventaire.htm" />
+      <HelpTOCNode Title="frm_produit_inventaire Constructor " Url="html/M-projet_dietetique.frm_produit_inventaire.-ctor.htm" />
+      <HelpTOCNode Id="867aabaa-c343-4dda-b41d-8900c0e85917" Title="frm_produit_inventaire Methods" Url="html/Methods.T-projet_dietetique.frm_produit_inventaire.htm">
+        <HelpTOCNode Title="Charger_DS Method " Url="html/M-projet_dietetique.frm_produit_inventaire.Charger_DS.htm" />
+        <HelpTOCNode Title="Charger_DS_ex Method " Url="html/M-projet_dietetique.frm_produit_inventaire.Charger_DS_ex.htm" />
+        <HelpTOCNode Title="Reinitialiser_Criteres Method " Url="html/M-projet_dietetique.frm_produit_inventaire.Reinitialiser_Criteres.htm" />
+        <HelpTOCNode Title="Trouver_Resultats Method " Url="html/M-projet_dietetique.frm_produit_inventaire.Trouver_Resultats.htm" />
+        <HelpTOCNode Title="Trouver_Resultats_ex Method " Url="html/M-projet_dietetique.frm_produit_inventaire.Trouver_Resultats_ex.htm" />
+        <HelpTOCNode Title="Verification Method " Url="html/M-projet_dietetique.frm_produit_inventaire.Verification.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frm_produit_inventaire Properties" Url="html/Properties.T-projet_dietetique.frm_produit_inventaire.htm" />
+      <HelpTOCNode Title="frm_produit_inventaire Events" Url="html/Events.T-projet_dietetique.frm_produit_inventaire.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3bb135d7-958c-4819-bc3b-b106b0117d5c" Title="Frm_recette Class" Url="html/T-projet_dietetique.Frm_recette.htm">
+      <HelpTOCNode Title="Frm_recette Members" Url="html/AllMembers.T-projet_dietetique.Frm_recette.htm" />
+      <HelpTOCNode Title="Frm_recette Constructor " Url="html/M-projet_dietetique.Frm_recette.-ctor.htm" />
+      <HelpTOCNode Title="Frm_recette Methods" Url="html/Methods.T-projet_dietetique.Frm_recette.htm" />
+      <HelpTOCNode Title="Frm_recette Properties" Url="html/Properties.T-projet_dietetique.Frm_recette.htm" />
+      <HelpTOCNode Title="Frm_recette Events" Url="html/Events.T-projet_dietetique.Frm_recette.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2c3e7573-d698-4b0f-a9cc-4eb4bce08530" Title="frm_sauvegarde_commande Class" Url="html/T-projet_dietetique.frm_sauvegarde_commande.htm">
+      <HelpTOCNode Title="frm_sauvegarde_commande Members" Url="html/AllMembers.T-projet_dietetique.frm_sauvegarde_commande.htm" />
+      <HelpTOCNode Title="frm_sauvegarde_commande Constructor " Url="html/M-projet_dietetique.frm_sauvegarde_commande.-ctor.htm" />
+      <HelpTOCNode Id="565c8a67-7b8d-4684-a765-6cfd1c795e90" Title="frm_sauvegarde_commande Methods" Url="html/Methods.T-projet_dietetique.frm_sauvegarde_commande.htm">
+        <HelpTOCNode Title="adresse_cegep Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.adresse_cegep.htm" />
+        <HelpTOCNode Title="adresse_fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.adresse_fournisseur.htm" />
+        <HelpTOCNode Title="boutton_annuler Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.boutton_annuler.htm" />
+        <HelpTOCNode Title="boutton_commander Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.boutton_commander.htm" />
+        <HelpTOCNode Title="boutton_numero_aleatoire Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.boutton_numero_aleatoire.htm" />
+        <HelpTOCNode Title="boutton_ouvrir_pdf Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.boutton_ouvrir_pdf.htm" />
+        <HelpTOCNode Title="boutton_sauvegarder Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.boutton_sauvegarder.htm" />
+        <HelpTOCNode Title="calculer Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.calculer.htm" />
+        <HelpTOCNode Title="champ_numero_commande Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.champ_numero_commande.htm" />
+        <HelpTOCNode Title="code_postal_fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.code_postal_fournisseur.htm" />
+        <HelpTOCNode Title="commande Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.commande.htm" />
+        <HelpTOCNode Title="commande_detaillee Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.commande_detaillee.htm" />
+        <HelpTOCNode Title="date_commande Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.date_commande.htm" />
+        <HelpTOCNode Title="desactiver_bouton_textbox Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.desactiver_bouton_textbox.htm" />
+        <HelpTOCNode Title="evenement_annuler Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.evenement_annuler.htm" />
+        <HelpTOCNode Title="evenement_commander Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.evenement_commander.htm" />
+        <HelpTOCNode Title="evenement_ouvrir_pdf Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.evenement_ouvrir_pdf.htm" />
+        <HelpTOCNode Title="evenement_sauvegarder Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.evenement_sauvegarder.htm" />
+        <HelpTOCNode Title="evenement_textbox_change Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.evenement_textbox_change.htm" />
+        <HelpTOCNode Title="evenement_textbox_keypress Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.evenement_textbox_keypress.htm" />
+        <HelpTOCNode Title="expediteur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.expediteur.htm" />
+        <HelpTOCNode Title="fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.fournisseur.htm" />
+        <HelpTOCNode Title="get_adresse_fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_adresse_fournisseur.htm" />
+        <HelpTOCNode Title="get_bouton_commander Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_bouton_commander.htm" />
+        <HelpTOCNode Title="get_bouton_generer Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_bouton_generer.htm" />
+        <HelpTOCNode Title="get_code_postal_fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_code_postal_fournisseur.htm" />
+        <HelpTOCNode Title="get_date_commande Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_date_commande.htm" />
+        <HelpTOCNode Title="get_fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_fournisseur.htm" />
+        <HelpTOCNode Title="get_hauteur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_hauteur.htm" />
+        <HelpTOCNode Title="get_liste Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_liste.htm" />
+        <HelpTOCNode Title="get_nom_fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_nom_fournisseur.htm" />
+        <HelpTOCNode Title="get_numero_commande Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_numero_commande.htm" />
+        <HelpTOCNode Title="get_panel_fin Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_panel_fin.htm" />
+        <HelpTOCNode Title="get_remarque Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_remarque.htm" />
+        <HelpTOCNode Title="get_titre Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_titre.htm" />
+        <HelpTOCNode Title="get_total Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_total.htm" />
+        <HelpTOCNode Title="get_tps Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_tps.htm" />
+        <HelpTOCNode Title="get_tvq Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_tvq.htm" />
+        <HelpTOCNode Title="get_txt_numero_commande Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_txt_numero_commande.htm" />
+        <HelpTOCNode Title="get_ville_fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.get_ville_fournisseur.htm" />
+        <HelpTOCNode Title="internet_cegep Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.internet_cegep.htm" />
+        <HelpTOCNode Title="label_deux_points Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.label_deux_points.htm" />
+        <HelpTOCNode Title="label_erreur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.label_erreur.htm" />
+        <HelpTOCNode Title="label_remarque Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.label_remarque.htm" />
+        <HelpTOCNode Title="list_view_dynamique Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.list_view_dynamique.htm" />
+        <HelpTOCNode Title="modification_textbox Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.modification_textbox.htm" />
+        <HelpTOCNode Title="nom_expediteur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.nom_expediteur.htm" />
+        <HelpTOCNode Title="nom_fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.nom_fournisseur.htm" />
+        <HelpTOCNode Title="numero_commande Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.numero_commande.htm" />
+        <HelpTOCNode Title="panel_bouton_fin Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.panel_bouton_fin.htm" />
+        <HelpTOCNode Title="panel_dynamique Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.panel_dynamique.htm" />
+        <HelpTOCNode Title="panel_entre Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.panel_entre.htm" />
+        <HelpTOCNode Title="panel_prix Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.panel_prix.htm" />
+        <HelpTOCNode Title="set__adresse_fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set__adresse_fournisseur.htm" />
+        <HelpTOCNode Title="set_bouton_commander Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_bouton_commander.htm" />
+        <HelpTOCNode Title="set_bouton_generer Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_bouton_generer.htm" />
+        <HelpTOCNode Title="set_code_postal_fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_code_postal_fournisseur.htm" />
+        <HelpTOCNode Title="set_date_commande Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_date_commande.htm" />
+        <HelpTOCNode Title="set_fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_fournisseur.htm" />
+        <HelpTOCNode Title="set_hauteur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_hauteur.htm" />
+        <HelpTOCNode Title="set_liste Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_liste.htm" />
+        <HelpTOCNode Title="set_nom_fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_nom_fournisseur.htm" />
+        <HelpTOCNode Title="set_numero_commande Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_numero_commande.htm" />
+        <HelpTOCNode Title="set_panel_fin Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_panel_fin.htm" />
+        <HelpTOCNode Title="set_remarque Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_remarque.htm" />
+        <HelpTOCNode Title="set_textbox_numero_commande Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_textbox_numero_commande.htm" />
+        <HelpTOCNode Title="set_titre Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_titre.htm" />
+        <HelpTOCNode Title="set_total Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_total.htm" />
+        <HelpTOCNode Title="set_tps Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_tps.htm" />
+        <HelpTOCNode Title="set_tvq Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_tvq.htm" />
+        <HelpTOCNode Title="set_ville_fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.set_ville_fournisseur.htm" />
+        <HelpTOCNode Title="sous_total Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.sous_total.htm" />
+        <HelpTOCNode Title="tel_cegep Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.tel_cegep.htm" />
+        <HelpTOCNode Title="textbox_remarque Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.textbox_remarque.htm" />
+        <HelpTOCNode Title="total Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.total.htm" />
+        <HelpTOCNode Title="tps Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.tps.htm" />
+        <HelpTOCNode Title="trouver_id_fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.trouver_id_fournisseur.htm" />
+        <HelpTOCNode Title="trouver_id_produit Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.trouver_id_produit.htm" />
+        <HelpTOCNode Title="trouver_no_format Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.trouver_no_format.htm" />
+        <HelpTOCNode Title="trouver_no_mesure Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.trouver_no_mesure.htm" />
+        <HelpTOCNode Title="tvq Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.tvq.htm" />
+        <HelpTOCNode Title="verification_numero_commande Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.verification_numero_commande.htm" />
+        <HelpTOCNode Title="verification_numero_commande_bd Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.verification_numero_commande_bd.htm" />
+        <HelpTOCNode Title="ville_cegep Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.ville_cegep.htm" />
+        <HelpTOCNode Title="ville_fournisseur Method " Url="html/M-projet_dietetique.frm_sauvegarde_commande.ville_fournisseur.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frm_sauvegarde_commande Properties" Url="html/Properties.T-projet_dietetique.frm_sauvegarde_commande.htm" />
+      <HelpTOCNode Title="frm_sauvegarde_commande Events" Url="html/Events.T-projet_dietetique.frm_sauvegarde_commande.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="11e51b06-8a71-4ef2-a151-b2ffcc8809bf" Title="frm_selectionProf Class" Url="html/T-projet_dietetique.frm_selectionProf.htm">
+      <HelpTOCNode Title="frm_selectionProf Members" Url="html/AllMembers.T-projet_dietetique.frm_selectionProf.htm" />
+      <HelpTOCNode Title="frm_selectionProf Methods" Url="html/Methods.T-projet_dietetique.frm_selectionProf.htm" />
+      <HelpTOCNode Id="68e946ae-1d06-4c61-9b18-e690c5a29e1d" Title="frm_selectionProf Properties" Url="html/Properties.T-projet_dietetique.frm_selectionProf.htm">
+        <HelpTOCNode Title="Professeur Property " Url="html/P-projet_dietetique.frm_selectionProf.Professeur.htm" />
+        <HelpTOCNode Title="Professeurs Property " Url="html/P-projet_dietetique.frm_selectionProf.Professeurs.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frm_selectionProf Events" Url="html/Events.T-projet_dietetique.frm_selectionProf.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f0380853-2dc9-4828-bb01-31b5f8abfb29" Title="frmDietetique Class" Url="html/T-projet_dietetique.frmDietetique.htm">
+      <HelpTOCNode Title="frmDietetique Members" Url="html/AllMembers.T-projet_dietetique.frmDietetique.htm" />
+      <HelpTOCNode Id="ce20c3e2-0cf7-49b0-aa7c-d4536e7a5ae6" Title="frmDietetique Constructor " Url="html/Overload-projet_dietetique.frmDietetique.-ctor.htm">
+        <HelpTOCNode Title="frmDietetique Constructor " Url="html/M-projet_dietetique.frmDietetique.-ctor.htm" />
+        <HelpTOCNode Title="frmDietetique Constructor (Utilisateur)" Url="html/M-projet_dietetique.frmDietetique.-ctor_1.htm" />
+        <HelpTOCNode Title="frmDietetique Constructor (Utilisateur, String)" Url="html/M-projet_dietetique.frmDietetique.-ctor_2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="97efa5c7-0e7b-4881-a1d0-a92d23c5a9c9" Title="frmDietetique Fields" Url="html/Fields.T-projet_dietetique.frmDietetique.htm">
+        <HelpTOCNode Title="section_choisie Field" Url="html/F-projet_dietetique.frmDietetique.section_choisie.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5847fb66-6967-4cb7-84c1-0c93ad372575" Title="frmDietetique Methods" Url="html/Methods.T-projet_dietetique.frmDietetique.htm">
+        <HelpTOCNode Title="Adapter_Couleurs Method " Url="html/M-projet_dietetique.frmDietetique.Adapter_Couleurs.htm" />
+        <HelpTOCNode Title="Adapter_UserControl Method " Url="html/M-projet_dietetique.frmDietetique.Adapter_UserControl.htm" />
+        <HelpTOCNode Title="Exercice_Selectionnee Method " Url="html/M-projet_dietetique.frmDietetique.Exercice_Selectionnee.htm" />
+        <HelpTOCNode Title="RechargerExercice Method " Url="html/M-projet_dietetique.frmDietetique.RechargerExercice.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="743931d7-453e-4bf2-bdeb-c509585f1d71" Title="frmDietetique Properties" Url="html/Properties.T-projet_dietetique.frmDietetique.htm">
+        <HelpTOCNode Title="ExercSelectionne Property " Url="html/P-projet_dietetique.frmDietetique.ExercSelectionne.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmDietetique Events" Url="html/Events.T-projet_dietetique.frmDietetique.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="07d7f2dd-f12e-4a57-ba6d-5ab055073331" Title="frmModifierCommande Class" Url="html/T-projet_dietetique.frmModifierCommande.htm">
+      <HelpTOCNode Title="frmModifierCommande Members" Url="html/AllMembers.T-projet_dietetique.frmModifierCommande.htm" />
+      <HelpTOCNode Title="frmModifierCommande Constructor " Url="html/M-projet_dietetique.frmModifierCommande.-ctor.htm" />
+      <HelpTOCNode Id="23e68200-95d6-4c01-83ef-46041dc73860" Title="frmModifierCommande Fields" Url="html/Fields.T-projet_dietetique.frmModifierCommande.htm">
+        <HelpTOCNode Title="lstModifier Field" Url="html/F-projet_dietetique.frmModifierCommande.lstModifier.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="frmModifierCommande Methods" Url="html/Methods.T-projet_dietetique.frmModifierCommande.htm" />
+      <HelpTOCNode Title="frmModifierCommande Properties" Url="html/Properties.T-projet_dietetique.frmModifierCommande.htm" />
+      <HelpTOCNode Title="frmModifierCommande Events" Url="html/Events.T-projet_dietetique.frmModifierCommande.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="8e96524f-1aec-4f78-a4fd-a90e7d1f933a" Title="recette Class" Url="html/T-projet_dietetique.recette.htm">
+      <HelpTOCNode Title="recette Members" Url="html/AllMembers.T-projet_dietetique.recette.htm" />
+      <HelpTOCNode Title="recette Methods" Url="html/Methods.T-projet_dietetique.recette.htm" />
+      <HelpTOCNode Title="recette Properties" Url="html/Properties.T-projet_dietetique.recette.htm" />
+      <HelpTOCNode Title="recette Events" Url="html/Events.T-projet_dietetique.recette.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a5879916-7cd6-4e78-a364-0d1f1df3f232" Title="usr_ajout_allergene Class" Url="html/T-projet_dietetique.usr_ajout_allergene.htm">
+      <HelpTOCNode Title="usr_ajout_allergene Members" Url="html/AllMembers.T-projet_dietetique.usr_ajout_allergene.htm" />
+      <HelpTOCNode Id="8dc544d1-6a57-45ce-9f36-66cff53ab038" Title="usr_ajout_allergene Methods" Url="html/Methods.T-projet_dietetique.usr_ajout_allergene.htm">
+        <HelpTOCNode Title="Focus_Textbox Method " Url="html/M-projet_dietetique.usr_ajout_allergene.Focus_Textbox.htm" />
+        <HelpTOCNode Title="Position_Label_Erreur Method " Url="html/M-projet_dietetique.usr_ajout_allergene.Position_Label_Erreur.htm" />
+        <HelpTOCNode Title="Vider_Textbox Method " Url="html/M-projet_dietetique.usr_ajout_allergene.Vider_Textbox.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_ajout_allergene Properties" Url="html/Properties.T-projet_dietetique.usr_ajout_allergene.htm" />
+      <HelpTOCNode Title="usr_ajout_allergene Events" Url="html/Events.T-projet_dietetique.usr_ajout_allergene.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9a51a6d2-2fa1-42ca-8a07-335899d08b97" Title="usr_ajout_produit Class" Url="html/T-projet_dietetique.usr_ajout_produit.htm">
+      <HelpTOCNode Title="usr_ajout_produit Members" Url="html/AllMembers.T-projet_dietetique.usr_ajout_produit.htm" />
+      <HelpTOCNode Id="502a86d3-d442-496a-a23a-f3f2b8c54978" Title="usr_ajout_produit Constructor " Url="html/Overload-projet_dietetique.usr_ajout_produit.-ctor.htm">
+        <HelpTOCNode Title="usr_ajout_produit Constructor " Url="html/M-projet_dietetique.usr_ajout_produit.-ctor.htm" />
+        <HelpTOCNode Title="usr_ajout_produit Constructor (Int32, String)" Url="html/M-projet_dietetique.usr_ajout_produit.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ba566e8f-0a83-4812-95d3-679386f0d745" Title="usr_ajout_produit Methods" Url="html/Methods.T-projet_dietetique.usr_ajout_produit.htm">
+        <HelpTOCNode Title="Ajouter_Allergene Method " Url="html/M-projet_dietetique.usr_ajout_produit.Ajouter_Allergene.htm" />
+        <HelpTOCNode Title="Ajouter_Produit Method " Url="html/M-projet_dietetique.usr_ajout_produit.Ajouter_Produit.htm" />
+        <HelpTOCNode Title="Ajouter_Taxes Method " Url="html/M-projet_dietetique.usr_ajout_produit.Ajouter_Taxes.htm" />
+        <HelpTOCNode Title="clearList Method " Url="html/M-projet_dietetique.usr_ajout_produit.clearList.htm" />
+        <HelpTOCNode Title="DropDownItemClicked Method " Url="html/M-projet_dietetique.usr_ajout_produit.DropDownItemClicked.htm" />
+        <HelpTOCNode Title="Existe_Deja Method " Url="html/M-projet_dietetique.usr_ajout_produit.Existe_Deja.htm" />
+        <HelpTOCNode Title="Recuperer_Produits Method " Url="html/M-projet_dietetique.usr_ajout_produit.Recuperer_Produits.htm" />
+        <HelpTOCNode Title="Remplir_Controles Method " Url="html/M-projet_dietetique.usr_ajout_produit.Remplir_Controles.htm" />
+        <HelpTOCNode Title="Remplir_Unites Method " Url="html/M-projet_dietetique.usr_ajout_produit.Remplir_Unites.htm" />
+        <HelpTOCNode Title="Taxe_Trouvee Method " Url="html/M-projet_dietetique.usr_ajout_produit.Taxe_Trouvee.htm" />
+        <HelpTOCNode Title="Trouver_Categorie Method " Url="html/M-projet_dietetique.usr_ajout_produit.Trouver_Categorie.htm" />
+        <HelpTOCNode Title="Trouver_Format Method " Url="html/M-projet_dietetique.usr_ajout_produit.Trouver_Format.htm" />
+        <HelpTOCNode Title="Trouver_Mesure Method " Url="html/M-projet_dietetique.usr_ajout_produit.Trouver_Mesure.htm" />
+        <HelpTOCNode Title="Verifier_Bio Method " Url="html/M-projet_dietetique.usr_ajout_produit.Verifier_Bio.htm" />
+        <HelpTOCNode Title="Verifier_Categorie Method " Url="html/M-projet_dietetique.usr_ajout_produit.Verifier_Categorie.htm" />
+        <HelpTOCNode Title="Verifier_Ensemble Method " Url="html/M-projet_dietetique.usr_ajout_produit.Verifier_Ensemble.htm" />
+        <HelpTOCNode Title="Verifier_Format Method " Url="html/M-projet_dietetique.usr_ajout_produit.Verifier_Format.htm" />
+        <HelpTOCNode Title="Verifier_Marque Method " Url="html/M-projet_dietetique.usr_ajout_produit.Verifier_Marque.htm" />
+        <HelpTOCNode Title="Verifier_Mesure Method " Url="html/M-projet_dietetique.usr_ajout_produit.Verifier_Mesure.htm" />
+        <HelpTOCNode Title="Verifier_Nom_Produit Method " Url="html/M-projet_dietetique.usr_ajout_produit.Verifier_Nom_Produit.htm" />
+        <HelpTOCNode Title="Verifier_Perissable Method " Url="html/M-projet_dietetique.usr_ajout_produit.Verifier_Perissable.htm" />
+        <HelpTOCNode Title="Verifier_Quantite Method " Url="html/M-projet_dietetique.usr_ajout_produit.Verifier_Quantite.htm" />
+        <HelpTOCNode Title="Vider_Textboxes Method " Url="html/M-projet_dietetique.usr_ajout_produit.Vider_Textboxes.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_ajout_produit Properties" Url="html/Properties.T-projet_dietetique.usr_ajout_produit.htm" />
+      <HelpTOCNode Title="usr_ajout_produit Events" Url="html/Events.T-projet_dietetique.usr_ajout_produit.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="257198b1-4508-4fac-b9eb-a2f47c4fadf9" Title="usr_ajouter_utls Class" Url="html/T-projet_dietetique.usr_ajouter_utls.htm">
+      <HelpTOCNode Title="usr_ajouter_utls Members" Url="html/AllMembers.T-projet_dietetique.usr_ajouter_utls.htm" />
+      <HelpTOCNode Title="usr_ajouter_utls Constructor " Url="html/M-projet_dietetique.usr_ajouter_utls.-ctor.htm" />
+      <HelpTOCNode Id="5a442f2b-81d3-42e0-a2e3-dc52776fa94f" Title="usr_ajouter_utls Methods" Url="html/Methods.T-projet_dietetique.usr_ajouter_utls.htm">
+        <HelpTOCNode Title="droit_admin Method " Url="html/M-projet_dietetique.usr_ajouter_utls.droit_admin.htm" />
+        <HelpTOCNode Title="droit_prof Method " Url="html/M-projet_dietetique.usr_ajouter_utls.droit_prof.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_ajouter_utls Properties" Url="html/Properties.T-projet_dietetique.usr_ajouter_utls.htm" />
+      <HelpTOCNode Title="usr_ajouter_utls Events" Url="html/Events.T-projet_dietetique.usr_ajouter_utls.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="160ccb83-cad5-4fc3-896e-06952c5e2e00" Title="usr_associer_utls_cours Class" Url="html/T-projet_dietetique.usr_associer_utls_cours.htm">
+      <HelpTOCNode Title="usr_associer_utls_cours Members" Url="html/AllMembers.T-projet_dietetique.usr_associer_utls_cours.htm" />
+      <HelpTOCNode Title="usr_associer_utls_cours Constructor " Url="html/M-projet_dietetique.usr_associer_utls_cours.-ctor.htm" />
+      <HelpTOCNode Title="usr_associer_utls_cours Methods" Url="html/Methods.T-projet_dietetique.usr_associer_utls_cours.htm" />
+      <HelpTOCNode Title="usr_associer_utls_cours Properties" Url="html/Properties.T-projet_dietetique.usr_associer_utls_cours.htm" />
+      <HelpTOCNode Title="usr_associer_utls_cours Events" Url="html/Events.T-projet_dietetique.usr_associer_utls_cours.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="670947bc-39cc-4149-b2de-fbad197671b0" Title="usr_categories Class" Url="html/T-projet_dietetique.usr_categories.htm">
+      <HelpTOCNode Title="usr_categories Members" Url="html/AllMembers.T-projet_dietetique.usr_categories.htm" />
+      <HelpTOCNode Id="1adee7bc-1949-49bd-a363-805ccfd27f9a" Title="usr_categories Methods" Url="html/Methods.T-projet_dietetique.usr_categories.htm">
+        <HelpTOCNode Title="ajouter_categories Method " Url="html/M-projet_dietetique.usr_categories.ajouter_categories.htm" />
+        <HelpTOCNode Title="Annuler_categorie Method " Url="html/M-projet_dietetique.usr_categories.Annuler_categorie.htm" />
+        <HelpTOCNode Title="Initialiser_Controles Method " Url="html/M-projet_dietetique.usr_categories.Initialiser_Controles.htm" />
+        <HelpTOCNode Title="MAJ Method " Url="html/M-projet_dietetique.usr_categories.MAJ.htm" />
+        <HelpTOCNode Title="message_erreur Method " Url="html/M-projet_dietetique.usr_categories.message_erreur.htm" />
+        <HelpTOCNode Title="Modifier_categorie Method " Url="html/M-projet_dietetique.usr_categories.Modifier_categorie.htm" />
+        <HelpTOCNode Title="rechercher_categories Method " Url="html/M-projet_dietetique.usr_categories.rechercher_categories.htm" />
+        <HelpTOCNode Title="reinitialiser_controle Method " Url="html/M-projet_dietetique.usr_categories.reinitialiser_controle.htm" />
+        <HelpTOCNode Title="remplir_controles Method " Url="html/M-projet_dietetique.usr_categories.remplir_controles.htm" />
+        <HelpTOCNode Title="verifier_label Method " Url="html/M-projet_dietetique.usr_categories.verifier_label.htm" />
+        <HelpTOCNode Title="verifier_nom_categorie_bd Method " Url="html/M-projet_dietetique.usr_categories.verifier_nom_categorie_bd.htm" />
+        <HelpTOCNode Title="verifier_nom_textbox_vide Method " Url="html/M-projet_dietetique.usr_categories.verifier_nom_textbox_vide.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_categories Properties" Url="html/Properties.T-projet_dietetique.usr_categories.htm" />
+      <HelpTOCNode Title="usr_categories Events" Url="html/Events.T-projet_dietetique.usr_categories.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e92f3da9-8931-4ce2-9e79-ffaacd84e412" Title="usr_Changer_Taux_Taxes Class" Url="html/T-projet_dietetique.usr_Changer_Taux_Taxes.htm">
+      <HelpTOCNode Title="usr_Changer_Taux_Taxes Members" Url="html/AllMembers.T-projet_dietetique.usr_Changer_Taux_Taxes.htm" />
+      <HelpTOCNode Title="usr_Changer_Taux_Taxes Methods" Url="html/Methods.T-projet_dietetique.usr_Changer_Taux_Taxes.htm" />
+      <HelpTOCNode Title="usr_Changer_Taux_Taxes Properties" Url="html/Properties.T-projet_dietetique.usr_Changer_Taux_Taxes.htm" />
+      <HelpTOCNode Title="usr_Changer_Taux_Taxes Events" Url="html/Events.T-projet_dietetique.usr_Changer_Taux_Taxes.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ed077657-b010-481c-aa86-3656ddeb9627" Title="usr_commandes Class" Url="html/T-projet_dietetique.usr_commandes.htm">
+      <HelpTOCNode Title="usr_commandes Members" Url="html/AllMembers.T-projet_dietetique.usr_commandes.htm" />
+      <HelpTOCNode Title="usr_commandes Constructor " Url="html/M-projet_dietetique.usr_commandes.-ctor.htm" />
+      <HelpTOCNode Id="d09ca3ad-ea3c-4618-83be-6da99de99d2e" Title="usr_commandes Fields" Url="html/Fields.T-projet_dietetique.usr_commandes.htm">
+        <HelpTOCNode Title="strRequete Field" Url="html/F-projet_dietetique.usr_commandes.strRequete.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0b78d737-77bd-4052-ac18-c1392d848634" Title="usr_commandes Methods" Url="html/Methods.T-projet_dietetique.usr_commandes.htm">
+        <HelpTOCNode Title="activer_commande Method " Url="html/M-projet_dietetique.usr_commandes.activer_commande.htm" />
+        <HelpTOCNode Title="ajouterCommande Method " Url="html/M-projet_dietetique.usr_commandes.ajouterCommande.htm" />
+        <HelpTOCNode Title="assigner_commande Method " Url="html/M-projet_dietetique.usr_commandes.assigner_commande.htm" />
+        <HelpTOCNode Title="assigner_detail_commande Method " Url="html/M-projet_dietetique.usr_commandes.assigner_detail_commande.htm" />
+        <HelpTOCNode Title="btnComparer_click Method " Url="html/M-projet_dietetique.usr_commandes.btnComparer_click.htm" />
+        <HelpTOCNode Title="btnModifier_Click Method " Url="html/M-projet_dietetique.usr_commandes.btnModifier_Click.htm" />
+        <HelpTOCNode Title="calculer Method " Url="html/M-projet_dietetique.usr_commandes.calculer.htm" />
+        <HelpTOCNode Title="calculer_prix_total_commande Method " Url="html/M-projet_dietetique.usr_commandes.calculer_prix_total_commande.htm" />
+        <HelpTOCNode Title="Charger_DS Method " Url="html/M-projet_dietetique.usr_commandes.Charger_DS.htm" />
+        <HelpTOCNode Title="charger_ds_reception Method " Url="html/M-projet_dietetique.usr_commandes.charger_ds_reception.htm" />
+        <HelpTOCNode Title="compter_commande_exercice Method " Url="html/M-projet_dietetique.usr_commandes.compter_commande_exercice.htm" />
+        <HelpTOCNode Title="compter_commande_professeur Method " Url="html/M-projet_dietetique.usr_commandes.compter_commande_professeur.htm" />
+        <HelpTOCNode Title="compter_recepetion_exercice Method " Url="html/M-projet_dietetique.usr_commandes.compter_recepetion_exercice.htm" />
+        <HelpTOCNode Title="copy_reception Method " Url="html/M-projet_dietetique.usr_commandes.copy_reception.htm" />
+        <HelpTOCNode Title="desactiver_commande Method " Url="html/M-projet_dietetique.usr_commandes.desactiver_commande.htm" />
+        <HelpTOCNode Title="desactiver_table_commande Method " Url="html/M-projet_dietetique.usr_commandes.desactiver_table_commande.htm" />
+        <HelpTOCNode Title="desactiver_table_repcetion Method " Url="html/M-projet_dietetique.usr_commandes.desactiver_table_repcetion.htm" />
+        <HelpTOCNode Title="detailCommande Method " Url="html/M-projet_dietetique.usr_commandes.detailCommande.htm" />
+        <HelpTOCNode Title="ds_charger_reception Method " Url="html/M-projet_dietetique.usr_commandes.ds_charger_reception.htm" />
+        <HelpTOCNode Title="gestion_btn_eleves Method " Url="html/M-projet_dietetique.usr_commandes.gestion_btn_eleves.htm" />
+        <HelpTOCNode Title="gestion_btn_prof Method " Url="html/M-projet_dietetique.usr_commandes.gestion_btn_prof.htm" />
+        <HelpTOCNode Title="info_fournisseur Method " Url="html/M-projet_dietetique.usr_commandes.info_fournisseur.htm" />
+        <HelpTOCNode Title="initialisation_frm_sauvegarde_commande Method " Url="html/M-projet_dietetique.usr_commandes.initialisation_frm_sauvegarde_commande.htm" />
+        <HelpTOCNode Title="initialiser_nouvelle_commande Method " Url="html/M-projet_dietetique.usr_commandes.initialiser_nouvelle_commande.htm" />
+        <HelpTOCNode Title="modifier_reception_details Method " Url="html/M-projet_dietetique.usr_commandes.modifier_reception_details.htm" />
+        <HelpTOCNode Title="Rechercher_Categories Method " Url="html/M-projet_dietetique.usr_commandes.Rechercher_Categories.htm" />
+        <HelpTOCNode Title="Rechercher_Nom_Fournisseur Method " Url="html/M-projet_dietetique.usr_commandes.Rechercher_Nom_Fournisseur.htm" />
+        <HelpTOCNode Title="Reinitialiser_Textboxes Method " Url="html/M-projet_dietetique.usr_commandes.Reinitialiser_Textboxes.htm" />
+        <HelpTOCNode Title="remplir_commande Method " Url="html/M-projet_dietetique.usr_commandes.remplir_commande.htm" />
+        <HelpTOCNode Title="remplir_info Method " Url="html/M-projet_dietetique.usr_commandes.remplir_info.htm" />
+        <HelpTOCNode Title="remplir_reception_modifier Method " Url="html/M-projet_dietetique.usr_commandes.remplir_reception_modifier.htm" />
+        <HelpTOCNode Title="supprimer_reception Method " Url="html/M-projet_dietetique.usr_commandes.supprimer_reception.htm" />
+        <HelpTOCNode Title="trouver_date_commande Method " Url="html/M-projet_dietetique.usr_commandes.trouver_date_commande.htm" />
+        <HelpTOCNode Title="trouver_ds_reception Method " Url="html/M-projet_dietetique.usr_commandes.trouver_ds_reception.htm" />
+        <HelpTOCNode Title="trouver_id_fournisseur Method " Url="html/M-projet_dietetique.usr_commandes.trouver_id_fournisseur.htm" />
+        <HelpTOCNode Title="trouver_id_produit Method " Url="html/M-projet_dietetique.usr_commandes.trouver_id_produit.htm" />
+        <HelpTOCNode Title="trouver_no_commande Method " Url="html/M-projet_dietetique.usr_commandes.trouver_no_commande.htm" />
+        <HelpTOCNode Title="trouver_no_format Method " Url="html/M-projet_dietetique.usr_commandes.trouver_no_format.htm" />
+        <HelpTOCNode Title="trouver_no_mesure Method " Url="html/M-projet_dietetique.usr_commandes.trouver_no_mesure.htm" />
+        <HelpTOCNode Title="trouver_no_recepetion Method " Url="html/M-projet_dietetique.usr_commandes.trouver_no_recepetion.htm" />
+        <HelpTOCNode Title="trouver_nom_fournisseur Method " Url="html/M-projet_dietetique.usr_commandes.trouver_nom_fournisseur.htm" />
+        <HelpTOCNode Title="trouver_prix Method " Url="html/M-projet_dietetique.usr_commandes.trouver_prix.htm" />
+        <HelpTOCNode Title="trouver_remarque Method " Url="html/M-projet_dietetique.usr_commandes.trouver_remarque.htm" />
+        <HelpTOCNode Title="Trouver_Resultats Method " Url="html/M-projet_dietetique.usr_commandes.Trouver_Resultats.htm" />
+        <HelpTOCNode Title="verificationChampNull Method " Url="html/M-projet_dietetique.usr_commandes.verificationChampNull.htm" />
+        <HelpTOCNode Title="Verifier_Ordre Method " Url="html/M-projet_dietetique.usr_commandes.Verifier_Ordre.htm" />
+        <HelpTOCNode Title="Verifier_Tri Method " Url="html/M-projet_dietetique.usr_commandes.Verifier_Tri.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_commandes Properties" Url="html/Properties.T-projet_dietetique.usr_commandes.htm" />
+      <HelpTOCNode Title="usr_commandes Events" Url="html/Events.T-projet_dietetique.usr_commandes.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1fac54b0-71c6-4895-b170-e2b39228f8c4" Title="usr_comparer_commande Class" Url="html/T-projet_dietetique.usr_comparer_commande.htm">
+      <HelpTOCNode Title="usr_comparer_commande Members" Url="html/AllMembers.T-projet_dietetique.usr_comparer_commande.htm" />
+      <HelpTOCNode Title="usr_comparer_commande Constructor " Url="html/M-projet_dietetique.usr_comparer_commande.-ctor.htm" />
+      <HelpTOCNode Id="1159e64e-78c2-4d6b-bce2-9b628908cb64" Title="usr_comparer_commande Methods" Url="html/Methods.T-projet_dietetique.usr_comparer_commande.htm">
+        <HelpTOCNode Title="charger_ds Method " Url="html/M-projet_dietetique.usr_comparer_commande.charger_ds.htm" />
+        <HelpTOCNode Title="charger_liste_etu Method " Url="html/M-projet_dietetique.usr_comparer_commande.charger_liste_etu.htm" />
+        <HelpTOCNode Title="charger_liste_etu_remi Method " Url="html/M-projet_dietetique.usr_comparer_commande.charger_liste_etu_remi.htm" />
+        <HelpTOCNode Title="couleur_remise_commande Method " Url="html/M-projet_dietetique.usr_comparer_commande.couleur_remise_commande.htm" />
+        <HelpTOCNode Title="ds_charger_reception Method " Url="html/M-projet_dietetique.usr_comparer_commande.ds_charger_reception.htm" />
+        <HelpTOCNode Title="get_commande_haut Method " Url="html/M-projet_dietetique.usr_comparer_commande.get_commande_haut.htm" />
+        <HelpTOCNode Title="get_commande_titre Method " Url="html/M-projet_dietetique.usr_comparer_commande.get_commande_titre.htm" />
+        <HelpTOCNode Title="remplir_commande_eleve Method " Url="html/M-projet_dietetique.usr_comparer_commande.remplir_commande_eleve.htm" />
+        <HelpTOCNode Title="remplir_commande_prof Method " Url="html/M-projet_dietetique.usr_comparer_commande.remplir_commande_prof.htm" />
+        <HelpTOCNode Title="remplir_grid_eleves Method " Url="html/M-projet_dietetique.usr_comparer_commande.remplir_grid_eleves.htm" />
+        <HelpTOCNode Title="remplir_reception Method " Url="html/M-projet_dietetique.usr_comparer_commande.remplir_reception.htm" />
+        <HelpTOCNode Title="RemplirGrid Method " Url="html/M-projet_dietetique.usr_comparer_commande.RemplirGrid.htm" />
+        <HelpTOCNode Title="set_commande_haut Method " Url="html/M-projet_dietetique.usr_comparer_commande.set_commande_haut.htm" />
+        <HelpTOCNode Title="set_commande_titre Method " Url="html/M-projet_dietetique.usr_comparer_commande.set_commande_titre.htm" />
+        <HelpTOCNode Title="trouver_professeur Method " Url="html/M-projet_dietetique.usr_comparer_commande.trouver_professeur.htm" />
+        <HelpTOCNode Title="verifier_remise Method " Url="html/M-projet_dietetique.usr_comparer_commande.verifier_remise.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_comparer_commande Properties" Url="html/Properties.T-projet_dietetique.usr_comparer_commande.htm" />
+      <HelpTOCNode Title="usr_comparer_commande Events" Url="html/Events.T-projet_dietetique.usr_comparer_commande.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="95dda5d4-be31-4d30-9c18-7461d7d3d473" Title="usr_connexionCours Class" Url="html/T-projet_dietetique.usr_connexionCours.htm">
+      <HelpTOCNode Title="usr_connexionCours Members" Url="html/AllMembers.T-projet_dietetique.usr_connexionCours.htm" />
+      <HelpTOCNode Title="usr_connexionCours Constructor " Url="html/M-projet_dietetique.usr_connexionCours.-ctor.htm" />
+      <HelpTOCNode Title="usr_connexionCours Methods" Url="html/Methods.T-projet_dietetique.usr_connexionCours.htm" />
+      <HelpTOCNode Title="usr_connexionCours Properties" Url="html/Properties.T-projet_dietetique.usr_connexionCours.htm" />
+      <HelpTOCNode Title="usr_connexionCours Events" Url="html/Events.T-projet_dietetique.usr_connexionCours.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b6707a6d-6dff-46f5-965c-177257ece486" Title="usr_connexionUtls Class" Url="html/T-projet_dietetique.usr_connexionUtls.htm">
+      <HelpTOCNode Title="usr_connexionUtls Members" Url="html/AllMembers.T-projet_dietetique.usr_connexionUtls.htm" />
+      <HelpTOCNode Title="usr_connexionUtls Constructor " Url="html/M-projet_dietetique.usr_connexionUtls.-ctor.htm" />
+      <HelpTOCNode Id="8065e67f-0258-44cb-ab9a-32a2eff23203" Title="usr_connexionUtls Fields" Url="html/Fields.T-projet_dietetique.usr_connexionUtls.htm">
+        <HelpTOCNode Title="ctr_connecter Field" Url="html/F-projet_dietetique.usr_connexionUtls.ctr_connecter.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6c1a1283-a2e7-4148-805b-9b975d7a1f81" Title="usr_connexionUtls Methods" Url="html/Methods.T-projet_dietetique.usr_connexionUtls.htm">
+        <HelpTOCNode Title="effacerInfoConnexion Method " Url="html/M-projet_dietetique.usr_connexionUtls.effacerInfoConnexion.htm" />
+        <HelpTOCNode Title="verificationChampNull Method " Url="html/M-projet_dietetique.usr_connexionUtls.verificationChampNull.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_connexionUtls Properties" Url="html/Properties.T-projet_dietetique.usr_connexionUtls.htm" />
+      <HelpTOCNode Title="usr_connexionUtls Events" Url="html/Events.T-projet_dietetique.usr_connexionUtls.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1bcfd3c4-3a53-4629-b4e0-c778499dda61" Title="usr_emplacements Class" Url="html/T-projet_dietetique.usr_emplacements.htm">
+      <HelpTOCNode Title="usr_emplacements Members" Url="html/AllMembers.T-projet_dietetique.usr_emplacements.htm" />
+      <HelpTOCNode Id="b830b31a-d64b-4849-a900-bb542eea31c6" Title="usr_emplacements Methods" Url="html/Methods.T-projet_dietetique.usr_emplacements.htm">
+        <HelpTOCNode Title="Activer Method " Url="html/M-projet_dietetique.usr_emplacements.Activer.htm" />
+        <HelpTOCNode Title="Ajouter Method " Url="html/M-projet_dietetique.usr_emplacements.Ajouter.htm" />
+        <HelpTOCNode Title="Changer_Enabled Method " Url="html/M-projet_dietetique.usr_emplacements.Changer_Enabled.htm" />
+        <HelpTOCNode Title="Desactiver Method " Url="html/M-projet_dietetique.usr_emplacements.Desactiver.htm" />
+        <HelpTOCNode Title="Existe_Deja Method " Url="html/M-projet_dietetique.usr_emplacements.Existe_Deja.htm" />
+        <HelpTOCNode Title="Filtrer_Actifs Method " Url="html/M-projet_dietetique.usr_emplacements.Filtrer_Actifs.htm" />
+        <HelpTOCNode Title="Initialiser Method " Url="html/M-projet_dietetique.usr_emplacements.Initialiser.htm" />
+        <HelpTOCNode Title="MAJ Method " Url="html/M-projet_dietetique.usr_emplacements.MAJ.htm" />
+        <HelpTOCNode Title="Modifier Method " Url="html/M-projet_dietetique.usr_emplacements.Modifier.htm" />
+        <HelpTOCNode Title="Nom_OK Method " Url="html/M-projet_dietetique.usr_emplacements.Nom_OK.htm" />
+        <HelpTOCNode Title="Rafraichir_Boutons Method " Url="html/M-projet_dietetique.usr_emplacements.Rafraichir_Boutons.htm" />
+        <HelpTOCNode Title="Rechercher Method " Url="html/M-projet_dietetique.usr_emplacements.Rechercher.htm" />
+        <HelpTOCNode Title="Remplir_Emplacements Method " Url="html/M-projet_dietetique.usr_emplacements.Remplir_Emplacements.htm" />
+        <HelpTOCNode Title="Trouver_ID_Emplacement Method " Url="html/M-projet_dietetique.usr_emplacements.Trouver_ID_Emplacement.htm" />
+        <HelpTOCNode Title="Verification_Lignes Method " Url="html/M-projet_dietetique.usr_emplacements.Verification_Lignes.htm" />
+        <HelpTOCNode Title="Visualiser Method " Url="html/M-projet_dietetique.usr_emplacements.Visualiser.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_emplacements Properties" Url="html/Properties.T-projet_dietetique.usr_emplacements.htm" />
+      <HelpTOCNode Title="usr_emplacements Events" Url="html/Events.T-projet_dietetique.usr_emplacements.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="28149ec7-11eb-4352-979c-1ec23870a4d3" Title="usr_exerc_lst_E Class" Url="html/T-projet_dietetique.usr_exerc_lst_E.htm">
+      <HelpTOCNode Title="usr_exerc_lst_E Members" Url="html/AllMembers.T-projet_dietetique.usr_exerc_lst_E.htm" />
+      <HelpTOCNode Title="usr_exerc_lst_E Constructor " Url="html/M-projet_dietetique.usr_exerc_lst_E.-ctor.htm" />
+      <HelpTOCNode Id="40ebb479-cdab-4cff-9ace-6e1c3ee6644e" Title="usr_exerc_lst_E Methods" Url="html/Methods.T-projet_dietetique.usr_exerc_lst_E.htm">
+        <HelpTOCNode Title="changer_couleur_defaut Method " Url="html/M-projet_dietetique.usr_exerc_lst_E.changer_couleur_defaut.htm" />
+        <HelpTOCNode Title="changer_couleur_selection Method " Url="html/M-projet_dietetique.usr_exerc_lst_E.changer_couleur_selection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8ab22859-8675-4eb5-9e98-43c02365b559" Title="usr_exerc_lst_E Properties" Url="html/Properties.T-projet_dietetique.usr_exerc_lst_E.htm">
+        <HelpTOCNode Title="Numero Property " Url="html/P-projet_dietetique.usr_exerc_lst_E.Numero.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_exerc_lst_E Events" Url="html/Events.T-projet_dietetique.usr_exerc_lst_E.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c8d9daed-0f13-48e4-a34e-0a7f15dcbbd7" Title="usr_exerc_lst_P Class" Url="html/T-projet_dietetique.usr_exerc_lst_P.htm">
+      <HelpTOCNode Title="usr_exerc_lst_P Members" Url="html/AllMembers.T-projet_dietetique.usr_exerc_lst_P.htm" />
+      <HelpTOCNode Id="a823b6f2-5f2d-424f-bfbc-e245ca025511" Title="usr_exerc_lst_P Constructor " Url="html/Overload-projet_dietetique.usr_exerc_lst_P.-ctor.htm">
+        <HelpTOCNode Title="usr_exerc_lst_P Constructor (usr_commandes, Utilisateur, String, Int32)" Url="html/M-projet_dietetique.usr_exerc_lst_P.-ctor.htm" />
+        <HelpTOCNode Title="usr_exerc_lst_P Constructor (Int32, String, String, Boolean, Int32, String, usr_exercices)" Url="html/M-projet_dietetique.usr_exerc_lst_P.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d11d49e5-fb25-4040-814e-46dac973859b" Title="usr_exerc_lst_P Methods" Url="html/Methods.T-projet_dietetique.usr_exerc_lst_P.htm">
+        <HelpTOCNode Title="changer_couleur_defaut Method " Url="html/M-projet_dietetique.usr_exerc_lst_P.changer_couleur_defaut.htm" />
+        <HelpTOCNode Title="changer_couleur_selection Method " Url="html/M-projet_dietetique.usr_exerc_lst_P.changer_couleur_selection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="55bbfc8b-7fd3-47ef-b138-cb6035035c41" Title="usr_exerc_lst_P Properties" Url="html/Properties.T-projet_dietetique.usr_exerc_lst_P.htm">
+        <HelpTOCNode Title="Numero Property " Url="html/P-projet_dietetique.usr_exerc_lst_P.Numero.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_exerc_lst_P Events" Url="html/Events.T-projet_dietetique.usr_exerc_lst_P.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9048c8bb-8540-4556-8748-005d78a3e18c" Title="usr_exercices Class" Url="html/T-projet_dietetique.usr_exercices.htm">
+      <HelpTOCNode Title="usr_exercices Members" Url="html/AllMembers.T-projet_dietetique.usr_exercices.htm" />
+      <HelpTOCNode Title="usr_exercices Constructor " Url="html/M-projet_dietetique.usr_exercices.-ctor.htm" />
+      <HelpTOCNode Id="94505c4b-32e1-4cc2-8c48-b1b90eb354b8" Title="usr_exercices Fields" Url="html/Fields.T-projet_dietetique.usr_exercices.htm">
+        <HelpTOCNode Title="frmP Field" Url="html/F-projet_dietetique.usr_exercices.frmP.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0ef65355-bcb0-4665-969a-2f3349100d5a" Title="usr_exercices Methods" Url="html/Methods.T-projet_dietetique.usr_exercices.htm">
+        <HelpTOCNode Title="majExercice Method " Url="html/M-projet_dietetique.usr_exercices.majExercice.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="187532be-93ac-4112-9771-8a05829ed731" Title="usr_exercices Properties" Url="html/Properties.T-projet_dietetique.usr_exercices.htm">
+        <HelpTOCNode Title="Selection Property " Url="html/P-projet_dietetique.usr_exercices.Selection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_exercices Events" Url="html/Events.T-projet_dietetique.usr_exercices.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="52a343b9-2626-45b3-ad04-4a70fd06359a" Title="usr_exercices_A Class" Url="html/T-projet_dietetique.usr_exercices_A.htm">
+      <HelpTOCNode Title="usr_exercices_A Members" Url="html/AllMembers.T-projet_dietetique.usr_exercices_A.htm" />
+      <HelpTOCNode Title="usr_exercices_A Methods" Url="html/Methods.T-projet_dietetique.usr_exercices_A.htm" />
+      <HelpTOCNode Title="usr_exercices_A Properties" Url="html/Properties.T-projet_dietetique.usr_exercices_A.htm" />
+      <HelpTOCNode Title="usr_exercices_A Events" Url="html/Events.T-projet_dietetique.usr_exercices_A.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="53b99591-8d62-417d-913d-756f83268e2e" Title="usr_exercices_E Class" Url="html/T-projet_dietetique.usr_exercices_E.htm">
+      <HelpTOCNode Title="usr_exercices_E Members" Url="html/AllMembers.T-projet_dietetique.usr_exercices_E.htm" />
+      <HelpTOCNode Title="usr_exercices_E Constructor " Url="html/M-projet_dietetique.usr_exercices_E.-ctor.htm" />
+      <HelpTOCNode Id="924b00c0-10b6-499e-adfc-816f768677de" Title="usr_exercices_E Fields" Url="html/Fields.T-projet_dietetique.usr_exercices_E.htm">
+        <HelpTOCNode Title="frmP Field" Url="html/F-projet_dietetique.usr_exercices_E.frmP.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="61590ab5-1302-4b1d-9043-794a38df02b8" Title="usr_exercices_E Methods" Url="html/Methods.T-projet_dietetique.usr_exercices_E.htm">
+        <HelpTOCNode Title="majExercice Method " Url="html/M-projet_dietetique.usr_exercices_E.majExercice.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3da54e17-ba8b-40fb-a7a6-4f6b27422513" Title="usr_exercices_E Properties" Url="html/Properties.T-projet_dietetique.usr_exercices_E.htm">
+        <HelpTOCNode Title="Selection Property " Url="html/P-projet_dietetique.usr_exercices_E.Selection.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_exercices_E Events" Url="html/Events.T-projet_dietetique.usr_exercices_E.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="ce4ae190-ad89-4e9d-a269-fea1449db492" Title="usr_formats Class" Url="html/T-projet_dietetique.usr_formats.htm">
+      <HelpTOCNode Title="usr_formats Members" Url="html/AllMembers.T-projet_dietetique.usr_formats.htm" />
+      <HelpTOCNode Id="2a3ab22e-5ce1-41be-bb9c-8cceac5e65e2" Title="usr_formats Methods" Url="html/Methods.T-projet_dietetique.usr_formats.htm">
+        <HelpTOCNode Title="ajouter_format Method " Url="html/M-projet_dietetique.usr_formats.ajouter_format.htm" />
+        <HelpTOCNode Title="Annuler_format Method " Url="html/M-projet_dietetique.usr_formats.Annuler_format.htm" />
+        <HelpTOCNode Title="Initialiser_Controles Method " Url="html/M-projet_dietetique.usr_formats.Initialiser_Controles.htm" />
+        <HelpTOCNode Title="MAJ Method " Url="html/M-projet_dietetique.usr_formats.MAJ.htm" />
+        <HelpTOCNode Title="message_erreur Method " Url="html/M-projet_dietetique.usr_formats.message_erreur.htm" />
+        <HelpTOCNode Title="Modifier_format Method " Url="html/M-projet_dietetique.usr_formats.Modifier_format.htm" />
+        <HelpTOCNode Title="rechercher_format Method " Url="html/M-projet_dietetique.usr_formats.rechercher_format.htm" />
+        <HelpTOCNode Title="reinitialiser_controle Method " Url="html/M-projet_dietetique.usr_formats.reinitialiser_controle.htm" />
+        <HelpTOCNode Title="remplir_controles Method " Url="html/M-projet_dietetique.usr_formats.remplir_controles.htm" />
+        <HelpTOCNode Title="verifier_label Method " Url="html/M-projet_dietetique.usr_formats.verifier_label.htm" />
+        <HelpTOCNode Title="verifier_nom_format_bd Method " Url="html/M-projet_dietetique.usr_formats.verifier_nom_format_bd.htm" />
+        <HelpTOCNode Title="verifier_nom_textbox_vide Method " Url="html/M-projet_dietetique.usr_formats.verifier_nom_textbox_vide.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_formats Properties" Url="html/Properties.T-projet_dietetique.usr_formats.htm" />
+      <HelpTOCNode Title="usr_formats Events" Url="html/Events.T-projet_dietetique.usr_formats.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="48203d9a-51a9-4f59-b444-3c93f124e5fc" Title="usr_generer_utls Class" Url="html/T-projet_dietetique.usr_generer_utls.htm">
+      <HelpTOCNode Title="usr_generer_utls Members" Url="html/AllMembers.T-projet_dietetique.usr_generer_utls.htm" />
+      <HelpTOCNode Title="usr_generer_utls Constructor " Url="html/M-projet_dietetique.usr_generer_utls.-ctor.htm" />
+      <HelpTOCNode Id="7da3aeae-d59a-4e81-8ff6-2125d06ea604" Title="usr_generer_utls Methods" Url="html/Methods.T-projet_dietetique.usr_generer_utls.htm">
+        <HelpTOCNode Title="droit_admin Method " Url="html/M-projet_dietetique.usr_generer_utls.droit_admin.htm" />
+        <HelpTOCNode Title="droit_prof Method " Url="html/M-projet_dietetique.usr_generer_utls.droit_prof.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_generer_utls Properties" Url="html/Properties.T-projet_dietetique.usr_generer_utls.htm" />
+      <HelpTOCNode Title="usr_generer_utls Events" Url="html/Events.T-projet_dietetique.usr_generer_utls.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2859f218-9515-4a6c-bfab-f68343462a15" Title="usr_gestion_admin Class" Url="html/T-projet_dietetique.usr_gestion_admin.htm">
+      <HelpTOCNode Title="usr_gestion_admin Members" Url="html/AllMembers.T-projet_dietetique.usr_gestion_admin.htm" />
+      <HelpTOCNode Title="usr_gestion_admin Constructor " Url="html/M-projet_dietetique.usr_gestion_admin.-ctor.htm" />
+      <HelpTOCNode Id="2eea8bc2-3883-43f8-baeb-9d861edfa3c4" Title="usr_gestion_admin Methods" Url="html/Methods.T-projet_dietetique.usr_gestion_admin.htm">
+        <HelpTOCNode Title="Adapter_Couleurs Method " Url="html/M-projet_dietetique.usr_gestion_admin.Adapter_Couleurs.htm" />
+        <HelpTOCNode Title="Adapter_UserControl Method " Url="html/M-projet_dietetique.usr_gestion_admin.Adapter_UserControl.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_gestion_admin Properties" Url="html/Properties.T-projet_dietetique.usr_gestion_admin.htm" />
+      <HelpTOCNode Title="usr_gestion_admin Events" Url="html/Events.T-projet_dietetique.usr_gestion_admin.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="64782b0c-26df-4151-a6fb-52a1a54fffd6" Title="usr_gestion_cours Class" Url="html/T-projet_dietetique.usr_gestion_cours.htm">
+      <HelpTOCNode Title="usr_gestion_cours Members" Url="html/AllMembers.T-projet_dietetique.usr_gestion_cours.htm" />
+      <HelpTOCNode Title="usr_gestion_cours Constructor " Url="html/M-projet_dietetique.usr_gestion_cours.-ctor.htm" />
+      <HelpTOCNode Id="9a6dba2e-5c0e-4f20-91b6-8cc6d93212dd" Title="usr_gestion_cours Methods" Url="html/Methods.T-projet_dietetique.usr_gestion_cours.htm">
+        <HelpTOCNode Title="droit_admin Method " Url="html/M-projet_dietetique.usr_gestion_cours.droit_admin.htm" />
+        <HelpTOCNode Title="droit_prof Method " Url="html/M-projet_dietetique.usr_gestion_cours.droit_prof.htm" />
+        <HelpTOCNode Title="MAJ Method " Url="html/M-projet_dietetique.usr_gestion_cours.MAJ.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_gestion_cours Properties" Url="html/Properties.T-projet_dietetique.usr_gestion_cours.htm" />
+      <HelpTOCNode Title="usr_gestion_cours Events" Url="html/Events.T-projet_dietetique.usr_gestion_cours.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c07646ef-0b74-49da-acb4-ad0c0d8ef37d" Title="usr_gestion_fournisseurs Class" Url="html/T-projet_dietetique.usr_gestion_fournisseurs.htm">
+      <HelpTOCNode Title="usr_gestion_fournisseurs Members" Url="html/AllMembers.T-projet_dietetique.usr_gestion_fournisseurs.htm" />
+      <HelpTOCNode Id="b507b640-2661-4cfe-9e2b-9254a6d2e8a7" Title="usr_gestion_fournisseurs Fields" Url="html/Fields.T-projet_dietetique.usr_gestion_fournisseurs.htm">
+        <HelpTOCNode Title="tel_list Field" Url="html/F-projet_dietetique.usr_gestion_fournisseurs.tel_list.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f71f0e1f-fc8f-481a-be02-ce082246665a" Title="usr_gestion_fournisseurs Methods" Url="html/Methods.T-projet_dietetique.usr_gestion_fournisseurs.htm">
+        <HelpTOCNode Title="Activer_Fournisseur Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Activer_Fournisseur.htm" />
+        <HelpTOCNode Title="Afficher_Telephones Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Afficher_Telephones.htm" />
+        <HelpTOCNode Title="Ajouter_Fournisseur Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Ajouter_Fournisseur.htm" />
+        <HelpTOCNode Title="Ajouter_Numero Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Ajouter_Numero.htm" />
+        <HelpTOCNode Title="Ajouter_Telephones Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Ajouter_Telephones.htm" />
+        <HelpTOCNode Title="Cacher_Limites_Frais Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Cacher_Limites_Frais.htm" />
+        <HelpTOCNode Title="Cacher_Limites_Quantite Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Cacher_Limites_Quantite.htm" />
+        <HelpTOCNode Title="Changer_Enabled Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Changer_Enabled.htm" />
+        <HelpTOCNode Title="Desactiver_Fournisseur Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Desactiver_Fournisseur.htm" />
+        <HelpTOCNode Title="Existe_Deja Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Existe_Deja.htm" />
+        <HelpTOCNode Title="Initialiser_Controles Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Initialiser_Controles.htm" />
+        <HelpTOCNode Title="Modifier_Fournisseur Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Modifier_Fournisseur.htm" />
+        <HelpTOCNode Title="Modifier_Telephones Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Modifier_Telephones.htm" />
+        <HelpTOCNode Title="Montrer_Limites_Frais Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Montrer_Limites_Frais.htm" />
+        <HelpTOCNode Title="Montrer_Limites_Quantite Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Montrer_Limites_Quantite.htm" />
+        <HelpTOCNode Title="Rafraichir_Boutons Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Rafraichir_Boutons.htm" />
+        <HelpTOCNode Title="Rafraichir_MultiSelect Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Rafraichir_MultiSelect.htm" />
+        <HelpTOCNode Id="9c8cf4b9-9434-4a26-879b-701c75a141a8" Title="Rechercher_Fournisseur Method " Url="html/Overload-projet_dietetique.usr_gestion_fournisseurs.Rechercher_Fournisseur.htm">
+          <HelpTOCNode Title="Rechercher_Fournisseur Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Rechercher_Fournisseur.htm" />
+          <HelpTOCNode Title="Rechercher_Fournisseur Method (RadioButton, RadioButton)" Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Rechercher_Fournisseur_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Remplir_Fournisseurs Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Remplir_Fournisseurs.htm" />
+        <HelpTOCNode Title="Remplir_Telephones Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Remplir_Telephones.htm" />
+        <HelpTOCNode Title="Remplir_Visualisation Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Remplir_Visualisation.htm" />
+        <HelpTOCNode Title="Trouver_ID_Fournisseur Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Trouver_ID_Fournisseur.htm" />
+        <HelpTOCNode Title="Valider_Adresse Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Valider_Adresse.htm" />
+        <HelpTOCNode Title="Valider_CodePostal Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Valider_CodePostal.htm" />
+        <HelpTOCNode Title="Valider_Courriel Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Valider_Courriel.htm" />
+        <HelpTOCNode Title="Valider_Ensemble Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Valider_Ensemble.htm" />
+        <HelpTOCNode Title="Valider_Liste_Telephones Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Valider_Liste_Telephones.htm" />
+        <HelpTOCNode Title="Valider_Nom_Contact Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Valider_Nom_Contact.htm" />
+        <HelpTOCNode Title="Valider_Nom_Fournisseur Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Valider_Nom_Fournisseur.htm" />
+        <HelpTOCNode Title="Valider_Prenom_Contact Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Valider_Prenom_Contact.htm" />
+        <HelpTOCNode Title="Valider_Site_Web Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Valider_Site_Web.htm" />
+        <HelpTOCNode Title="Valider_Telephone Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Valider_Telephone.htm" />
+        <HelpTOCNode Title="Valider_Titre Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Valider_Titre.htm" />
+        <HelpTOCNode Title="Valider_Ville Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Valider_Ville.htm" />
+        <HelpTOCNode Title="Verification_Lignes Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Verification_Lignes.htm" />
+        <HelpTOCNode Title="Vider_Ajouts Method " Url="html/M-projet_dietetique.usr_gestion_fournisseurs.Vider_Ajouts.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_gestion_fournisseurs Properties" Url="html/Properties.T-projet_dietetique.usr_gestion_fournisseurs.htm" />
+      <HelpTOCNode Title="usr_gestion_fournisseurs Events" Url="html/Events.T-projet_dietetique.usr_gestion_fournisseurs.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1e828048-ee2c-4a65-8369-c2be731cd5a4" Title="usr_gestion_Menucours Class" Url="html/T-projet_dietetique.usr_gestion_Menucours.htm">
+      <HelpTOCNode Title="usr_gestion_Menucours Members" Url="html/AllMembers.T-projet_dietetique.usr_gestion_Menucours.htm" />
+      <HelpTOCNode Title="usr_gestion_Menucours Constructor " Url="html/M-projet_dietetique.usr_gestion_Menucours.-ctor.htm" />
+      <HelpTOCNode Id="d22f1d46-a9b4-4c1b-b891-eb58ceeda76b" Title="usr_gestion_Menucours Fields" Url="html/Fields.T-projet_dietetique.usr_gestion_Menucours.htm">
+        <HelpTOCNode Title="utls_conn Field" Url="html/F-projet_dietetique.usr_gestion_Menucours.utls_conn.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8f1bb866-fbff-4d9b-bec0-6cd3d2758e9b" Title="usr_gestion_Menucours Methods" Url="html/Methods.T-projet_dietetique.usr_gestion_Menucours.htm">
+        <HelpTOCNode Title="maj Method " Url="html/M-projet_dietetique.usr_gestion_Menucours.maj.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_gestion_Menucours Properties" Url="html/Properties.T-projet_dietetique.usr_gestion_Menucours.htm" />
+      <HelpTOCNode Title="usr_gestion_Menucours Events" Url="html/Events.T-projet_dietetique.usr_gestion_Menucours.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="87c0fdf5-27e3-402e-9460-43f63e52919c" Title="usr_gestion_MenuFournisseurs Class" Url="html/T-projet_dietetique.usr_gestion_MenuFournisseurs.htm">
+      <HelpTOCNode Title="usr_gestion_MenuFournisseurs Members" Url="html/AllMembers.T-projet_dietetique.usr_gestion_MenuFournisseurs.htm" />
+      <HelpTOCNode Title="usr_gestion_MenuFournisseurs Methods" Url="html/Methods.T-projet_dietetique.usr_gestion_MenuFournisseurs.htm" />
+      <HelpTOCNode Title="usr_gestion_MenuFournisseurs Properties" Url="html/Properties.T-projet_dietetique.usr_gestion_MenuFournisseurs.htm" />
+      <HelpTOCNode Title="usr_gestion_MenuFournisseurs Events" Url="html/Events.T-projet_dietetique.usr_gestion_MenuFournisseurs.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="5c705164-3573-4c2a-8092-be3bf40a9ef9" Title="usr_gestion_Menuproduits Class" Url="html/T-projet_dietetique.usr_gestion_Menuproduits.htm">
+      <HelpTOCNode Title="usr_gestion_Menuproduits Members" Url="html/AllMembers.T-projet_dietetique.usr_gestion_Menuproduits.htm" />
+      <HelpTOCNode Title="usr_gestion_Menuproduits Methods" Url="html/Methods.T-projet_dietetique.usr_gestion_Menuproduits.htm" />
+      <HelpTOCNode Title="usr_gestion_Menuproduits Properties" Url="html/Properties.T-projet_dietetique.usr_gestion_Menuproduits.htm" />
+      <HelpTOCNode Title="usr_gestion_Menuproduits Events" Url="html/Events.T-projet_dietetique.usr_gestion_Menuproduits.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="4e17f238-e840-4b11-8f89-35b92b8fd80e" Title="usr_gestion_MenuUtls Class" Url="html/T-projet_dietetique.usr_gestion_MenuUtls.htm">
+      <HelpTOCNode Title="usr_gestion_MenuUtls Members" Url="html/AllMembers.T-projet_dietetique.usr_gestion_MenuUtls.htm" />
+      <HelpTOCNode Title="usr_gestion_MenuUtls Constructor " Url="html/M-projet_dietetique.usr_gestion_MenuUtls.-ctor.htm" />
+      <HelpTOCNode Id="330602d5-0257-4ac4-aa62-99d997395c6b" Title="usr_gestion_MenuUtls Methods" Url="html/Methods.T-projet_dietetique.usr_gestion_MenuUtls.htm">
+        <HelpTOCNode Title="majCours Method " Url="html/M-projet_dietetique.usr_gestion_MenuUtls.majCours.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="cfe9b663-bd7a-49ad-8c04-81fe904a29e4" Title="usr_gestion_MenuUtls Properties" Url="html/Properties.T-projet_dietetique.usr_gestion_MenuUtls.htm">
+        <HelpTOCNode Title="UtlsConn Property " Url="html/P-projet_dietetique.usr_gestion_MenuUtls.UtlsConn.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_gestion_MenuUtls Events" Url="html/Events.T-projet_dietetique.usr_gestion_MenuUtls.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="214bd372-d447-496a-a3cc-d8c860de9a0c" Title="usr_historique_taxes Class" Url="html/T-projet_dietetique.usr_historique_taxes.htm">
+      <HelpTOCNode Title="usr_historique_taxes Members" Url="html/AllMembers.T-projet_dietetique.usr_historique_taxes.htm" />
+      <HelpTOCNode Id="6a058c6c-2a92-4687-a02c-de93de189a9a" Title="usr_historique_taxes Methods" Url="html/Methods.T-projet_dietetique.usr_historique_taxes.htm">
+        <HelpTOCNode Title="AjouterPourcentage Method " Url="html/M-projet_dietetique.usr_historique_taxes.AjouterPourcentage.htm" />
+        <HelpTOCNode Title="Charger_DS Method " Url="html/M-projet_dietetique.usr_historique_taxes.Charger_DS.htm" />
+        <HelpTOCNode Title="RemplirGrid Method " Url="html/M-projet_dietetique.usr_historique_taxes.RemplirGrid.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_historique_taxes Properties" Url="html/Properties.T-projet_dietetique.usr_historique_taxes.htm" />
+      <HelpTOCNode Title="usr_historique_taxes Events" Url="html/Events.T-projet_dietetique.usr_historique_taxes.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="97bdae2d-08ae-4276-a521-f47d9e0157f7" Title="usr_inventaire_e Class" Url="html/T-projet_dietetique.usr_inventaire_e.htm">
+      <HelpTOCNode Title="usr_inventaire_e Members" Url="html/AllMembers.T-projet_dietetique.usr_inventaire_e.htm" />
+      <HelpTOCNode Title="usr_inventaire_e Constructor " Url="html/M-projet_dietetique.usr_inventaire_e.-ctor.htm" />
+      <HelpTOCNode Id="f43780c7-5c49-497b-a319-ab16af11b115" Title="usr_inventaire_e Fields" Url="html/Fields.T-projet_dietetique.usr_inventaire_e.htm">
+        <HelpTOCNode Title="code_produit Field" Url="html/F-projet_dietetique.usr_inventaire_e.code_produit.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="af48f4af-fc35-47bf-b689-9c786155f738" Title="usr_inventaire_e Methods" Url="html/Methods.T-projet_dietetique.usr_inventaire_e.htm">
+        <HelpTOCNode Title="Cacher_Limites_Frais Method " Url="html/M-projet_dietetique.usr_inventaire_e.Cacher_Limites_Frais.htm" />
+        <HelpTOCNode Title="Charger_DS_Exercice Method " Url="html/M-projet_dietetique.usr_inventaire_e.Charger_DS_Exercice.htm" />
+        <HelpTOCNode Title="Enlever_Point_Virgule Method " Url="html/M-projet_dietetique.usr_inventaire_e.Enlever_Point_Virgule.htm" />
+        <HelpTOCNode Title="Maj Method " Url="html/M-projet_dietetique.usr_inventaire_e.Maj.htm" />
+        <HelpTOCNode Title="Montrer_Limites_Frais Method " Url="html/M-projet_dietetique.usr_inventaire_e.Montrer_Limites_Frais.htm" />
+        <HelpTOCNode Title="Reinitialiser_Criteres Method " Url="html/M-projet_dietetique.usr_inventaire_e.Reinitialiser_Criteres.htm" />
+        <HelpTOCNode Title="Trouver_Resultats_Exercice Method " Url="html/M-projet_dietetique.usr_inventaire_e.Trouver_Resultats_Exercice.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_inventaire_e Properties" Url="html/Properties.T-projet_dietetique.usr_inventaire_e.htm" />
+      <HelpTOCNode Title="usr_inventaire_e Events" Url="html/Events.T-projet_dietetique.usr_inventaire_e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="af78ceac-c953-4b2d-8137-fe3980019a93" Title="usr_inventaire_P Class" Url="html/T-projet_dietetique.usr_inventaire_P.htm">
+      <HelpTOCNode Title="usr_inventaire_P Members" Url="html/AllMembers.T-projet_dietetique.usr_inventaire_P.htm" />
+      <HelpTOCNode Title="usr_inventaire_P Constructor " Url="html/M-projet_dietetique.usr_inventaire_P.-ctor.htm" />
+      <HelpTOCNode Id="0daed1f0-b457-4a97-9d5f-5224452cb39d" Title="usr_inventaire_P Fields" Url="html/Fields.T-projet_dietetique.usr_inventaire_P.htm">
+        <HelpTOCNode Title="code_produit Field" Url="html/F-projet_dietetique.usr_inventaire_P.code_produit.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0c1b5c9c-63a7-4c1a-a8ff-14c1435872f5" Title="usr_inventaire_P Methods" Url="html/Methods.T-projet_dietetique.usr_inventaire_P.htm">
+        <HelpTOCNode Title="Cacher_Limites_Frais Method " Url="html/M-projet_dietetique.usr_inventaire_P.Cacher_Limites_Frais.htm" />
+        <HelpTOCNode Title="Charger_DS Method " Url="html/M-projet_dietetique.usr_inventaire_P.Charger_DS.htm" />
+        <HelpTOCNode Title="Charger_DS_Exercice Method " Url="html/M-projet_dietetique.usr_inventaire_P.Charger_DS_Exercice.htm" />
+        <HelpTOCNode Title="Enlever_Point_Virgule Method " Url="html/M-projet_dietetique.usr_inventaire_P.Enlever_Point_Virgule.htm" />
+        <HelpTOCNode Title="Maj Method " Url="html/M-projet_dietetique.usr_inventaire_P.Maj.htm" />
+        <HelpTOCNode Title="Montrer_Limites_Frais Method " Url="html/M-projet_dietetique.usr_inventaire_P.Montrer_Limites_Frais.htm" />
+        <HelpTOCNode Title="Reinitialiser_Criteres Method " Url="html/M-projet_dietetique.usr_inventaire_P.Reinitialiser_Criteres.htm" />
+        <HelpTOCNode Title="Trouver_Resultats Method " Url="html/M-projet_dietetique.usr_inventaire_P.Trouver_Resultats.htm" />
+        <HelpTOCNode Title="Trouver_Resultats_Exercice Method " Url="html/M-projet_dietetique.usr_inventaire_P.Trouver_Resultats_Exercice.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_inventaire_P Properties" Url="html/Properties.T-projet_dietetique.usr_inventaire_P.htm" />
+      <HelpTOCNode Title="usr_inventaire_P Events" Url="html/Events.T-projet_dietetique.usr_inventaire_P.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="72c5bdda-dab2-4b1e-a4e8-703ec5f6e087" Title="usr_liste_utls Class" Url="html/T-projet_dietetique.usr_liste_utls.htm">
+      <HelpTOCNode Title="usr_liste_utls Members" Url="html/AllMembers.T-projet_dietetique.usr_liste_utls.htm" />
+      <HelpTOCNode Title="usr_liste_utls Constructor " Url="html/M-projet_dietetique.usr_liste_utls.-ctor.htm" />
+      <HelpTOCNode Id="48fbfffc-7491-46fb-8925-ce48269a9c49" Title="usr_liste_utls Methods" Url="html/Methods.T-projet_dietetique.usr_liste_utls.htm">
+        <HelpTOCNode Title="droit_admin Method " Url="html/M-projet_dietetique.usr_liste_utls.droit_admin.htm" />
+        <HelpTOCNode Title="droit_prof Method " Url="html/M-projet_dietetique.usr_liste_utls.droit_prof.htm" />
+        <HelpTOCNode Title="MAJ Method " Url="html/M-projet_dietetique.usr_liste_utls.MAJ.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_liste_utls Properties" Url="html/Properties.T-projet_dietetique.usr_liste_utls.htm" />
+      <HelpTOCNode Title="usr_liste_utls Events" Url="html/Events.T-projet_dietetique.usr_liste_utls.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="db5763e6-97ad-4747-9d66-a040b625cfe8" Title="usr_nouveau_mdp Class" Url="html/T-projet_dietetique.usr_nouveau_mdp.htm">
+      <HelpTOCNode Title="usr_nouveau_mdp Members" Url="html/AllMembers.T-projet_dietetique.usr_nouveau_mdp.htm" />
+      <HelpTOCNode Title="usr_nouveau_mdp Constructor " Url="html/M-projet_dietetique.usr_nouveau_mdp.-ctor.htm" />
+      <HelpTOCNode Title="usr_nouveau_mdp Methods" Url="html/Methods.T-projet_dietetique.usr_nouveau_mdp.htm" />
+      <HelpTOCNode Title="usr_nouveau_mdp Properties" Url="html/Properties.T-projet_dietetique.usr_nouveau_mdp.htm" />
+      <HelpTOCNode Title="usr_nouveau_mdp Events" Url="html/Events.T-projet_dietetique.usr_nouveau_mdp.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2a4c2487-f081-4f54-b7f3-d2808f246640" Title="usr_produits Class" Url="html/T-projet_dietetique.usr_produits.htm">
+      <HelpTOCNode Title="usr_produits Members" Url="html/AllMembers.T-projet_dietetique.usr_produits.htm" />
+      <HelpTOCNode Id="7617f3df-d9c7-425e-99d9-550972b5e2c2" Title="usr_produits Methods" Url="html/Methods.T-projet_dietetique.usr_produits.htm">
+        <HelpTOCNode Title="Charger_DS Method " Url="html/M-projet_dietetique.usr_produits.Charger_DS.htm" />
+        <HelpTOCNode Title="Enlever_Point_Virgule Method " Url="html/M-projet_dietetique.usr_produits.Enlever_Point_Virgule.htm" />
+        <HelpTOCNode Title="Reinitialiser_Criteres Method " Url="html/M-projet_dietetique.usr_produits.Reinitialiser_Criteres.htm" />
+        <HelpTOCNode Title="RemplirGrid Method " Url="html/M-projet_dietetique.usr_produits.RemplirGrid.htm" />
+        <HelpTOCNode Title="Trouver_Resultats Method " Url="html/M-projet_dietetique.usr_produits.Trouver_Resultats.htm" />
+        <HelpTOCNode Title="usr_produits_Load Method " Url="html/M-projet_dietetique.usr_produits.usr_produits_Load.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_produits Properties" Url="html/Properties.T-projet_dietetique.usr_produits.htm" />
+      <HelpTOCNode Title="usr_produits Events" Url="html/Events.T-projet_dietetique.usr_produits.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="f7bc4dbd-da5e-4da7-8295-c8674ab9c69a" Title="usr_profil Class" Url="html/T-projet_dietetique.usr_profil.htm">
+      <HelpTOCNode Title="usr_profil Members" Url="html/AllMembers.T-projet_dietetique.usr_profil.htm" />
+      <HelpTOCNode Title="usr_profil Constructor " Url="html/M-projet_dietetique.usr_profil.-ctor.htm" />
+      <HelpTOCNode Title="usr_profil Methods" Url="html/Methods.T-projet_dietetique.usr_profil.htm" />
+      <HelpTOCNode Id="7c3dc19f-e2fc-46ea-9e33-809890e18bd6" Title="usr_profil Properties" Url="html/Properties.T-projet_dietetique.usr_profil.htm">
+        <HelpTOCNode Title="UtlsConn Property " Url="html/P-projet_dietetique.usr_profil.UtlsConn.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_profil Events" Url="html/Events.T-projet_dietetique.usr_profil.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="eda09b40-834b-4744-8e5e-f9a5c90988e6" Title="usr_purger Class" Url="html/T-projet_dietetique.usr_purger.htm">
+      <HelpTOCNode Title="usr_purger Members" Url="html/AllMembers.T-projet_dietetique.usr_purger.htm" />
+      <HelpTOCNode Title="usr_purger Constructor " Url="html/M-projet_dietetique.usr_purger.-ctor.htm" />
+      <HelpTOCNode Title="usr_purger Methods" Url="html/Methods.T-projet_dietetique.usr_purger.htm" />
+      <HelpTOCNode Title="usr_purger Properties" Url="html/Properties.T-projet_dietetique.usr_purger.htm" />
+      <HelpTOCNode Title="usr_purger Events" Url="html/Events.T-projet_dietetique.usr_purger.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="1d3d2295-9b9e-4502-b6b5-6c7fcd9f1df0" Title="usr_recette_etu Class" Url="html/T-projet_dietetique.usr_recette_etu.htm">
+      <HelpTOCNode Title="usr_recette_etu Members" Url="html/AllMembers.T-projet_dietetique.usr_recette_etu.htm" />
+      <HelpTOCNode Title="usr_recette_etu Methods" Url="html/Methods.T-projet_dietetique.usr_recette_etu.htm" />
+      <HelpTOCNode Title="usr_recette_etu Properties" Url="html/Properties.T-projet_dietetique.usr_recette_etu.htm" />
+      <HelpTOCNode Title="usr_recette_etu Events" Url="html/Events.T-projet_dietetique.usr_recette_etu.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="c205e1a4-fd41-4566-9e02-83eed7852503" Title="usr_recette_exercice Class" Url="html/T-projet_dietetique.usr_recette_exercice.htm">
+      <HelpTOCNode Title="usr_recette_exercice Members" Url="html/AllMembers.T-projet_dietetique.usr_recette_exercice.htm" />
+      <HelpTOCNode Title="usr_recette_exercice Methods" Url="html/Methods.T-projet_dietetique.usr_recette_exercice.htm" />
+      <HelpTOCNode Title="usr_recette_exercice Properties" Url="html/Properties.T-projet_dietetique.usr_recette_exercice.htm" />
+      <HelpTOCNode Title="usr_recette_exercice Events" Url="html/Events.T-projet_dietetique.usr_recette_exercice.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="531f00f3-0277-4920-a1b8-a6f7d83ceb00" Title="usr_rech_gestion_produit Class" Url="html/T-projet_dietetique.usr_rech_gestion_produit.htm">
+      <HelpTOCNode Title="usr_rech_gestion_produit Members" Url="html/AllMembers.T-projet_dietetique.usr_rech_gestion_produit.htm" />
+      <HelpTOCNode Title="usr_rech_gestion_produit Constructor " Url="html/M-projet_dietetique.usr_rech_gestion_produit.-ctor.htm" />
+      <HelpTOCNode Id="5a1d4f0f-d8bd-4382-b5b8-38f73852db3f" Title="usr_rech_gestion_produit Methods" Url="html/Methods.T-projet_dietetique.usr_rech_gestion_produit.htm">
+        <HelpTOCNode Title="Activer_Produit Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Activer_Produit.htm" />
+        <HelpTOCNode Title="Ajouter_Produit Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Ajouter_Produit.htm" />
+        <HelpTOCNode Title="Ajouter_Taxes Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Ajouter_Taxes.htm" />
+        <HelpTOCNode Title="Changer_Enabled Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Changer_Enabled.htm" />
+        <HelpTOCNode Id="cf55d459-948c-4872-bdf0-ebd4cb002eb9" Title="Declarer_Requete Method " Url="html/Overload-projet_dietetique.usr_rech_gestion_produit.Declarer_Requete.htm">
+          <HelpTOCNode Title="Declarer_Requete Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Declarer_Requete.htm" />
+          <HelpTOCNode Title="Declarer_Requete Method (RadioButton, RadioButton)" Url="html/M-projet_dietetique.usr_rech_gestion_produit.Declarer_Requete_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Desactiver_Produit Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Desactiver_Produit.htm" />
+        <HelpTOCNode Title="DropDownItemClicked Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.DropDownItemClicked.htm" />
+        <HelpTOCNode Title="Enlever_Point_Virgule Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Enlever_Point_Virgule.htm" />
+        <HelpTOCNode Title="Existe_Deja Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Existe_Deja.htm" />
+        <HelpTOCNode Title="Modifier_Produit Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Modifier_Produit.htm" />
+        <HelpTOCNode Title="Rafraichir_Boutons Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Rafraichir_Boutons.htm" />
+        <HelpTOCNode Title="Rafraichir_MultiSelect Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Rafraichir_MultiSelect.htm" />
+        <HelpTOCNode Id="d5f44629-6fb3-4de3-89f5-3950b0a7a2e4" Title="Recuperer_Produits Method " Url="html/Overload-projet_dietetique.usr_rech_gestion_produit.Recuperer_Produits.htm">
+          <HelpTOCNode Title="Recuperer_Produits Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Recuperer_Produits.htm" />
+          <HelpTOCNode Title="Recuperer_Produits Method (String)" Url="html/M-projet_dietetique.usr_rech_gestion_produit.Recuperer_Produits_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Reinitialiser_Criteres Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Reinitialiser_Criteres.htm" />
+        <HelpTOCNode Title="Remplir_Controles Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Remplir_Controles.htm" />
+        <HelpTOCNode Title="Remplir_Produits Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Remplir_Produits.htm" />
+        <HelpTOCNode Title="Remplir_Unites Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Remplir_Unites.htm" />
+        <HelpTOCNode Title="Taxe_Trouvee Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Taxe_Trouvee.htm" />
+        <HelpTOCNode Title="Trouver_Categorie Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Trouver_Categorie.htm" />
+        <HelpTOCNode Title="Trouver_Format Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Trouver_Format.htm" />
+        <HelpTOCNode Title="Trouver_ID_Produit Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Trouver_ID_Produit.htm" />
+        <HelpTOCNode Title="Trouver_Mesure Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Trouver_Mesure.htm" />
+        <HelpTOCNode Title="Verifier_Bio Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Verifier_Bio.htm" />
+        <HelpTOCNode Title="Verifier_Categorie Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Verifier_Categorie.htm" />
+        <HelpTOCNode Title="Verifier_Code_Barre Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Verifier_Code_Barre.htm" />
+        <HelpTOCNode Title="Verifier_Code_PLU Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Verifier_Code_PLU.htm" />
+        <HelpTOCNode Title="Verifier_Ensemble Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Verifier_Ensemble.htm" />
+        <HelpTOCNode Title="Verifier_Format Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Verifier_Format.htm" />
+        <HelpTOCNode Title="Verifier_Marque Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Verifier_Marque.htm" />
+        <HelpTOCNode Title="Verifier_Mesure Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Verifier_Mesure.htm" />
+        <HelpTOCNode Title="Verifier_Nom_Produit Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Verifier_Nom_Produit.htm" />
+        <HelpTOCNode Title="Verifier_Numero Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Verifier_Numero.htm" />
+        <HelpTOCNode Title="Verifier_Perissable Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Verifier_Perissable.htm" />
+        <HelpTOCNode Title="Verifier_Quantite Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Verifier_Quantite.htm" />
+        <HelpTOCNode Title="Vider_Textboxes Method " Url="html/M-projet_dietetique.usr_rech_gestion_produit.Vider_Textboxes.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_rech_gestion_produit Properties" Url="html/Properties.T-projet_dietetique.usr_rech_gestion_produit.htm" />
+      <HelpTOCNode Title="usr_rech_gestion_produit Events" Url="html/Events.T-projet_dietetique.usr_rech_gestion_produit.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="33f1251b-9c16-42b0-8692-9de7afadd3eb" Title="usr_tel_lst Class" Url="html/T-projet_dietetique.usr_tel_lst.htm">
+      <HelpTOCNode Title="usr_tel_lst Members" Url="html/AllMembers.T-projet_dietetique.usr_tel_lst.htm" />
+      <HelpTOCNode Id="e75d9eb9-cc80-4fd2-a56e-2c814fdf49e5" Title="usr_tel_lst Constructor " Url="html/Overload-projet_dietetique.usr_tel_lst.-ctor.htm">
+        <HelpTOCNode Title="usr_tel_lst Constructor (Int32, usr_gestion_fournisseurs)" Url="html/M-projet_dietetique.usr_tel_lst.-ctor.htm" />
+        <HelpTOCNode Title="usr_tel_lst Constructor (Int32, String, String, String, usr_gestion_fournisseurs)" Url="html/M-projet_dietetique.usr_tel_lst.-ctor_1.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c75fa828-3eb3-4f99-b5d7-39ba52aa208e" Title="usr_tel_lst Fields" Url="html/Fields.T-projet_dietetique.usr_tel_lst.htm">
+        <HelpTOCNode Title="numero Field" Url="html/F-projet_dietetique.usr_tel_lst.numero.htm" />
+        <HelpTOCNode Title="rangee Field" Url="html/F-projet_dietetique.usr_tel_lst.rangee.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="92646349-ae83-45d7-a090-b93a3bf5c645" Title="usr_tel_lst Methods" Url="html/Methods.T-projet_dietetique.usr_tel_lst.htm">
+        <HelpTOCNode Title="Afficher_Telephones Method " Url="html/M-projet_dietetique.usr_tel_lst.Afficher_Telephones.htm" />
+        <HelpTOCNode Title="Gerer_Boutons Method " Url="html/M-projet_dietetique.usr_tel_lst.Gerer_Boutons.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_tel_lst Properties" Url="html/Properties.T-projet_dietetique.usr_tel_lst.htm" />
+      <HelpTOCNode Title="usr_tel_lst Events" Url="html/Events.T-projet_dietetique.usr_tel_lst.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0b076fba-883b-4d71-ae5f-37cf201b23d4" Title="usr_unites_mesures Class" Url="html/T-projet_dietetique.usr_unites_mesures.htm">
+      <HelpTOCNode Title="usr_unites_mesures Members" Url="html/AllMembers.T-projet_dietetique.usr_unites_mesures.htm" />
+      <HelpTOCNode Id="db7683f0-00fa-47d3-b0b0-5c0284603143" Title="usr_unites_mesures Methods" Url="html/Methods.T-projet_dietetique.usr_unites_mesures.htm">
+        <HelpTOCNode Title="ajouter_unites_mesures Method " Url="html/M-projet_dietetique.usr_unites_mesures.ajouter_unites_mesures.htm" />
+        <HelpTOCNode Title="Annuler_unites_mesures Method " Url="html/M-projet_dietetique.usr_unites_mesures.Annuler_unites_mesures.htm" />
+        <HelpTOCNode Title="Initialiser_Controles Method " Url="html/M-projet_dietetique.usr_unites_mesures.Initialiser_Controles.htm" />
+        <HelpTOCNode Title="MAJ Method " Url="html/M-projet_dietetique.usr_unites_mesures.MAJ.htm" />
+        <HelpTOCNode Title="message_erreur Method " Url="html/M-projet_dietetique.usr_unites_mesures.message_erreur.htm" />
+        <HelpTOCNode Title="Modifier_unites_mesures Method " Url="html/M-projet_dietetique.usr_unites_mesures.Modifier_unites_mesures.htm" />
+        <HelpTOCNode Title="rechercher_unites_mesures Method " Url="html/M-projet_dietetique.usr_unites_mesures.rechercher_unites_mesures.htm" />
+        <HelpTOCNode Title="reinitialiser_controle Method " Url="html/M-projet_dietetique.usr_unites_mesures.reinitialiser_controle.htm" />
+        <HelpTOCNode Title="remplir_cbo_type_mesure Method " Url="html/M-projet_dietetique.usr_unites_mesures.remplir_cbo_type_mesure.htm" />
+        <HelpTOCNode Title="remplir_controles Method " Url="html/M-projet_dietetique.usr_unites_mesures.remplir_controles.htm" />
+        <HelpTOCNode Title="verifier_label Method " Url="html/M-projet_dietetique.usr_unites_mesures.verifier_label.htm" />
+        <HelpTOCNode Title="verifier_nom_combobox_vide Method " Url="html/M-projet_dietetique.usr_unites_mesures.verifier_nom_combobox_vide.htm" />
+        <HelpTOCNode Title="verifier_nom_textbox_vide Method " Url="html/M-projet_dietetique.usr_unites_mesures.verifier_nom_textbox_vide.htm" />
+        <HelpTOCNode Title="verifier_nom_unites_bd Method " Url="html/M-projet_dietetique.usr_unites_mesures.verifier_nom_unites_bd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_unites_mesures Properties" Url="html/Properties.T-projet_dietetique.usr_unites_mesures.htm" />
+      <HelpTOCNode Title="usr_unites_mesures Events" Url="html/Events.T-projet_dietetique.usr_unites_mesures.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6d501745-e970-4f9c-8bb9-576e4cfb759c" Title="usr_villes Class" Url="html/T-projet_dietetique.usr_villes.htm">
+      <HelpTOCNode Title="usr_villes Members" Url="html/AllMembers.T-projet_dietetique.usr_villes.htm" />
+      <HelpTOCNode Id="961f5a60-d04e-4092-99dd-8aaf50128b19" Title="usr_villes Methods" Url="html/Methods.T-projet_dietetique.usr_villes.htm">
+        <HelpTOCNode Title="ajouter_ville Method " Url="html/M-projet_dietetique.usr_villes.ajouter_ville.htm" />
+        <HelpTOCNode Title="Annuler_ville Method " Url="html/M-projet_dietetique.usr_villes.Annuler_ville.htm" />
+        <HelpTOCNode Title="Initialiser_Controles Method " Url="html/M-projet_dietetique.usr_villes.Initialiser_Controles.htm" />
+        <HelpTOCNode Title="MAJ Method " Url="html/M-projet_dietetique.usr_villes.MAJ.htm" />
+        <HelpTOCNode Title="message_erreur Method " Url="html/M-projet_dietetique.usr_villes.message_erreur.htm" />
+        <HelpTOCNode Title="Modifier_ville Method " Url="html/M-projet_dietetique.usr_villes.Modifier_ville.htm" />
+        <HelpTOCNode Title="rechercher_ville Method " Url="html/M-projet_dietetique.usr_villes.rechercher_ville.htm" />
+        <HelpTOCNode Title="reinitialiser_controle Method " Url="html/M-projet_dietetique.usr_villes.reinitialiser_controle.htm" />
+        <HelpTOCNode Title="remplir_controles Method " Url="html/M-projet_dietetique.usr_villes.remplir_controles.htm" />
+        <HelpTOCNode Title="verifier_label Method " Url="html/M-projet_dietetique.usr_villes.verifier_label.htm" />
+        <HelpTOCNode Title="verifier_nom_textbox_vide Method " Url="html/M-projet_dietetique.usr_villes.verifier_nom_textbox_vide.htm" />
+        <HelpTOCNode Title="verifier_nom_ville_bd Method " Url="html/M-projet_dietetique.usr_villes.verifier_nom_ville_bd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="usr_villes Properties" Url="html/Properties.T-projet_dietetique.usr_villes.htm" />
+      <HelpTOCNode Title="usr_villes Events" Url="html/Events.T-projet_dietetique.usr_villes.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="2528a476-7931-44af-a6a9-9ad38d738468" Title="Utilisateur Class" Url="html/T-projet_dietetique.Utilisateur.htm">
+      <HelpTOCNode Title="Utilisateur Members" Url="html/AllMembers.T-projet_dietetique.Utilisateur.htm" />
+      <HelpTOCNode Id="72e17b32-8a72-4ff6-afa3-2a648ecf4061" Title="Utilisateur Constructor " Url="html/Overload-projet_dietetique.Utilisateur.-ctor.htm">
+        <HelpTOCNode Title="Utilisateur Constructor (String, String)" Url="html/M-projet_dietetique.Utilisateur.-ctor.htm" />
+        <HelpTOCNode Title="Utilisateur Constructor (String, String, String)" Url="html/M-projet_dietetique.Utilisateur.-ctor_1.htm" />
+        <HelpTOCNode Title="Utilisateur Constructor (String, String, String, String, Char)" Url="html/M-projet_dietetique.Utilisateur.-ctor_2.htm" />
+        <HelpTOCNode Title="Utilisateur Constructor (String, String, String, String)" Url="html/M-projet_dietetique.Utilisateur.-ctor_3.htm" />
+        <HelpTOCNode Title="Utilisateur Constructor (String, String, String, String, Char, String)" Url="html/M-projet_dietetique.Utilisateur.-ctor_4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Utilisateur Methods" Url="html/Methods.T-projet_dietetique.Utilisateur.htm" />
+      <HelpTOCNode Id="cbdb1f94-80ba-4d31-bc5a-821d083174cc" Title="Utilisateur Properties" Url="html/Properties.T-projet_dietetique.Utilisateur.htm">
+        <HelpTOCNode Title="Mot_de_passe Property " Url="html/P-projet_dietetique.Utilisateur.Mot_de_passe.htm" />
+        <HelpTOCNode Title="No_id Property " Url="html/P-projet_dietetique.Utilisateur.No_id.htm" />
+        <HelpTOCNode Title="Nom_personne Property " Url="html/P-projet_dietetique.Utilisateur.Nom_personne.htm" />
+        <HelpTOCNode Title="Prenom_personne Property " Url="html/P-projet_dietetique.Utilisateur.Prenom_personne.htm" />
+        <HelpTOCNode Title="Titre Property " Url="html/P-projet_dietetique.Utilisateur.Titre.htm" />
+        <HelpTOCNode Title="TitreLong Property " Url="html/P-projet_dietetique.Utilisateur.TitreLong.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

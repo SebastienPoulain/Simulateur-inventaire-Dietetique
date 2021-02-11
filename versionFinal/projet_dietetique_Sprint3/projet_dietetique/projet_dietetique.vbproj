@@ -1,0 +1,764 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6E7792BE-469C-4D6C-8AAD-73560E30563D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>projet_dietetique.My.MyApplication</StartupObject>
+    <RootNamespace>projet_dietetique</RootNamespace>
+    <AssemblyName>projet_dietetique</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>projet_dietetique.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>projet_dietetique.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=5.5.10.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\École\Analyze et conception\Projet dietitique\sauvegardeProjet2\Diététique\projet_dietetique\projet_dietetique\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa, Version=5.5.10.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>F:\École\Analyze et conception\Projet dietitique\sauvegardeProjet2\Diététique\projet_dietetique\projet_dietetique\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.11\lib\net45\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Connexion.vb" />
+    <Compile Include="Contrôles utilisateurs\Connexion\usr_connexionCours.Designer.vb">
+      <DependentUpon>usr_connexionCours.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Connexion\usr_connexionCours.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Connexion\usr_connexionUtls.Designer.vb">
+      <DependentUpon>usr_connexionUtls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Connexion\usr_connexionUtls.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Exercices\usr_exercices_A.Designer.vb">
+      <DependentUpon>usr_exercices_A.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Exercices\usr_exercices_A.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Exercices\usr_exercices_E.Designer.vb">
+      <DependentUpon>usr_exercices_E.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Exercices\usr_exercices_E.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Exercices\usr_exerc_lst_E.Designer.vb">
+      <DependentUpon>usr_exerc_lst_E.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Exercices\usr_exerc_lst_E.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Exercices\usr_exerc_lst_P.Designer.vb">
+      <DependentUpon>usr_exerc_lst_P.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Exercices\usr_exerc_lst_P.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Inventaire\usr_inventaire_e.Designer.vb">
+      <DependentUpon>usr_inventaire_e.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Inventaire\usr_inventaire_e.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Categories\usr_categories.Designer.vb">
+      <DependentUpon>usr_categories.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Categories\usr_categories.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Emplacements\usr_emplacements.Designer.vb">
+      <DependentUpon>usr_emplacements.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Emplacements\usr_emplacements.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Formats\usr_formats.Designer.vb">
+      <DependentUpon>usr_formats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Formats\usr_formats.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Fournisseurs\usr_gestion_fournisseurs.Designer.vb">
+      <DependentUpon>usr_gestion_fournisseurs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Fournisseurs\usr_gestion_fournisseurs.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Fournisseurs\usr_gestion_MenuFournisseurs.Designer.vb">
+      <DependentUpon>usr_gestion_MenuFournisseurs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Fournisseurs\usr_gestion_MenuFournisseurs.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Fournisseurs\usr_tel_lst.Designer.vb">
+      <DependentUpon>usr_tel_lst.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Fournisseurs\usr_tel_lst.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Produits\usr_Ajout_Allergene.Designer.vb">
+      <DependentUpon>usr_Ajout_Allergene.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Produits\usr_Ajout_Allergene.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Produits\usr_Changer_Taux_Taxes.Designer.vb">
+      <DependentUpon>usr_Changer_Taux_Taxes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Produits\usr_Changer_Taux_Taxes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Produits\usr_historique_taxes.Designer.vb">
+      <DependentUpon>usr_historique_taxes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Produits\usr_historique_taxes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Purger\usr_purger.Designer.vb">
+      <DependentUpon>usr_purger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Purger\usr_purger.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Unites_mesures\usr_unites_mesures.Designer.vb">
+      <DependentUpon>usr_unites_mesures.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Unites_mesures\usr_unites_mesures.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Villes\usr_villes.Designer.vb">
+      <DependentUpon>usr_villes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Villes\usr_villes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Inventaire\usr_inventaire_P.designer.vb">
+      <DependentUpon>usr_inventaire_P.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Inventaire\usr_inventaire_P.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Produits\usr_ajout_produit.Designer.vb">
+      <DependentUpon>usr_ajout_produit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Produits\usr_ajout_produit.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Recettes\recette.Designer.vb">
+      <DependentUpon>recette.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Recettes\recette.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Commande\usr_comparer_commande.Designer.vb">
+      <DependentUpon>usr_comparer_commande.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Commande\usr_comparer_commande.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Recettes\usr_recette_etu.Designer.vb">
+      <DependentUpon>usr_recette_etu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Recettes\usr_recette_etu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Recettes\usr_recette_exercice.Designer.vb">
+      <DependentUpon>usr_recette_exercice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Recettes\usr_recette_exercice.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Associations\frm_associer_fournisseur.Designer.vb">
+      <DependentUpon>frm_associer_fournisseur.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Associations\frm_associer_fournisseur.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Associations\frm_associer_produit.Designer.vb">
+      <DependentUpon>frm_associer_produit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Associations\frm_associer_produit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Exercices\frm_modifier_exercice.Designer.vb">
+      <DependentUpon>frm_modifier_exercice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Exercices\frm_modifier_exercice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Inventaire\frm_modifier_inventaire.Designer.vb">
+      <DependentUpon>frm_modifier_inventaire.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Inventaire\frm_modifier_inventaire.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Inventaire\frm_produit_inventaire.Designer.vb">
+      <DependentUpon>frm_produit_inventaire.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Inventaire\frm_produit_inventaire.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Commandes\frm_sauvegarde_commande.Designer.vb">
+      <DependentUpon>frm_sauvegarde_commande.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Commandes\frm_sauvegarde_commande.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Cours\usr_associer_utls_cours.Designer.vb">
+      <DependentUpon>usr_associer_utls_cours.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Cours\usr_associer_utls_cours.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Cours\usr_gestion_cours.Designer.vb">
+      <DependentUpon>usr_gestion_cours.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Cours\usr_gestion_cours.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Cours\usr_gestion_Menucours.Designer.vb">
+      <DependentUpon>usr_gestion_Menucours.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Cours\usr_gestion_Menucours.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Produits\usr_gestion_Menuproduits.Designer.vb">
+      <DependentUpon>usr_gestion_Menuproduits.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Produits\usr_gestion_Menuproduits.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Produits\usr_rech_gestion_produit.Designer.vb">
+      <DependentUpon>usr_rech_gestion_produit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Produits\usr_rech_gestion_produit.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Profil\usr_profil.Designer.vb">
+      <DependentUpon>usr_profil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Profil\usr_profil.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Utilisateurs\usr_ajouter_utls.Designer.vb">
+      <DependentUpon>usr_ajouter_utls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Utilisateurs\usr_ajouter_utls.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Utilisateurs\usr_generer_utls.Designer.vb">
+      <DependentUpon>usr_generer_utls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Utilisateurs\usr_generer_utls.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Utilisateurs\usr_gestion_MenuUtls.Designer.vb">
+      <DependentUpon>usr_gestion_MenuUtls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Utilisateurs\usr_gestion_MenuUtls.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Utilisateurs\usr_liste_utls.Designer.vb">
+      <DependentUpon>usr_liste_utls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Utilisateurs\usr_liste_utls.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Utilisateurs\usr_nouveau_mdp.Designer.vb">
+      <DependentUpon>usr_nouveau_mdp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\Utilisateurs\usr_nouveau_mdp.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Commande\usr_commandes.Designer.vb">
+      <DependentUpon>usr_commandes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Commande\usr_commandes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Exercices\usr_exercices.Designer.vb">
+      <DependentUpon>usr_exercices.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Exercices\usr_exercices.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\usr_gestion_admin.Designer.vb">
+      <DependentUpon>usr_gestion_admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Paramètres\usr_gestion_admin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Commandes\frmModifierCommande.Designer.vb">
+      <DependentUpon>frmModifierCommande.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Commandes\frmModifierCommande.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Produits\frm_ajout_allergene.Designer.vb">
+      <DependentUpon>frm_ajout_allergene.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Produits\frm_ajout_allergene.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Produits\frm_ajout_produit.Designer.vb">
+      <DependentUpon>frm_ajout_produit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Produits\frm_ajout_produit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Produits\frm_changer_taux_taxes.Designer.vb">
+      <DependentUpon>frm_changer_taux_taxes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Produits\frm_changer_taux_taxes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Produits\frm_historique_taxes.Designer.vb">
+      <DependentUpon>frm_historique_taxes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Produits\frm_historique_taxes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Recette\Frm_recette.Designer.vb">
+      <DependentUpon>Frm_recette.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Recette\Frm_recette.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Utilisateur\frm_changer_mdp.Designer.vb">
+      <DependentUpon>frm_changer_mdp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Utilisateur\frm_changer_mdp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Produits\frm_details_produit.Designer.vb">
+      <DependentUpon>frm_details_produit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Produits\frm_details_produit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Menu\frmDietetique.Designer.vb">
+      <DependentUpon>frmDietetique.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Menu\frmDietetique.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Utilisateur\frm_modifierNom.Designer.vb">
+      <DependentUpon>frm_modifierNom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Utilisateur\frm_modifierNom.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formulaires\Utilisateur\frm_selectionProf.Designer.vb">
+      <DependentUpon>frm_selectionProf.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Utilisateur\frm_selectionProf.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\cls_animation_operation.vb" />
+    <Compile Include="Modules\mod_function_utls.vb" />
+    <Compile Include="Modules\mod_gestion_BD.vb" />
+    <Compile Include="Modules\mod_grid_Excel.vb" />
+    <Compile Include="Modules\mod_mvtFenetre.vb" />
+    <Compile Include="Modules\mod_mvt_gestion.vb" />
+    <Compile Include="Modules\mod_recherches.vb" />
+    <Compile Include="Modules\mod_regex.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Formulaires\Connexion\frm_connexion.Designer.vb">
+      <DependentUpon>frm_connexion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulaires\Connexion\frm_connexion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Produits\usr_produits.Designer.vb">
+      <DependentUpon>usr_produits.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Contrôles utilisateurs\Produits\usr_produits.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Classes\Utilisateur.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Contrôles utilisateurs\Connexion\usr_connexionCours.resx">
+      <DependentUpon>usr_connexionCours.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Connexion\usr_connexionUtls.resx">
+      <DependentUpon>usr_connexionUtls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Exercices\usr_exercices_A.resx">
+      <DependentUpon>usr_exercices_A.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Exercices\usr_exercices_E.resx">
+      <DependentUpon>usr_exercices_E.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Exercices\usr_exerc_lst_E.resx">
+      <DependentUpon>usr_exerc_lst_E.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Exercices\usr_exerc_lst_P.resx">
+      <DependentUpon>usr_exerc_lst_P.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Exercices\usr_exercices.resx">
+      <DependentUpon>usr_exercices.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Inventaire\usr_inventaire_e.resx">
+      <DependentUpon>usr_inventaire_e.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Categories\Usr_categories.resx">
+      <DependentUpon>usr_categories.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Emplacements\usr_emplacements.resx">
+      <DependentUpon>usr_emplacements.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Formats\usr_formats.resx">
+      <DependentUpon>usr_formats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Fournisseurs\usr_gestion_fournisseurs.resx">
+      <DependentUpon>usr_gestion_fournisseurs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Fournisseurs\usr_gestion_MenuFournisseurs.resx">
+      <DependentUpon>usr_gestion_MenuFournisseurs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Fournisseurs\usr_tel_lst.resx">
+      <DependentUpon>usr_tel_lst.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Inventaire\usr_inventaire_P.resx">
+      <DependentUpon>usr_inventaire_P.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Produits\usr_Ajout_Allergene.resx">
+      <DependentUpon>usr_Ajout_Allergene.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Produits\usr_Changer_Taux_Taxes.resx">
+      <DependentUpon>usr_Changer_Taux_Taxes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Produits\usr_historique_taxes.resx">
+      <DependentUpon>usr_historique_taxes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Purger\usr_purger.resx">
+      <DependentUpon>usr_purger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Unites_mesures\usr_unites_mesures.resx">
+      <DependentUpon>usr_unites_mesures.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Villes\usr_villes.resx">
+      <DependentUpon>usr_villes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Produits\usr_ajout_produit.resx">
+      <DependentUpon>usr_ajout_produit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Recettes\recette.resx">
+      <DependentUpon>recette.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Commande\usr_comparer_commande.resx">
+      <DependentUpon>usr_comparer_commande.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Recettes\usr_recette_etu.resx">
+      <DependentUpon>usr_recette_etu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Recettes\usr_recette_exercice.resx">
+      <DependentUpon>usr_recette_exercice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Associations\frm_associer_fournisseur.resx">
+      <DependentUpon>frm_associer_fournisseur.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Associations\frm_associer_produit.resx">
+      <DependentUpon>frm_associer_produit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Exercices\frm_modifier_exercice.resx">
+      <DependentUpon>frm_modifier_exercice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Inventaire\frm_modifier_inventaire.resx">
+      <DependentUpon>frm_modifier_inventaire.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Inventaire\frm_produit_inventaire.resx">
+      <DependentUpon>frm_produit_inventaire.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Commandes\frm_sauvegarde_commande.resx">
+      <DependentUpon>frm_sauvegarde_commande.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Cours\usr_associer_utls_cours.resx">
+      <DependentUpon>usr_associer_utls_cours.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Cours\usr_gestion_cours.resx">
+      <DependentUpon>usr_gestion_cours.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Cours\usr_gestion_Menucours.resx">
+      <DependentUpon>usr_gestion_Menucours.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Produits\usr_gestion_Menuproduits.resx">
+      <DependentUpon>usr_gestion_Menuproduits.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Produits\usr_rech_gestion_produit.resx">
+      <DependentUpon>usr_rech_gestion_produit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Profil\usr_profil.resx">
+      <DependentUpon>usr_profil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Utilisateurs\usr_ajouter_utls.resx">
+      <DependentUpon>usr_ajouter_utls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Utilisateurs\usr_generer_utls.resx">
+      <DependentUpon>usr_generer_utls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Utilisateurs\usr_gestion_MenuUtls.resx">
+      <DependentUpon>usr_gestion_MenuUtls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Utilisateurs\usr_liste_utls.resx">
+      <DependentUpon>usr_liste_utls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\Utilisateurs\usr_nouveau_mdp.resx">
+      <DependentUpon>usr_nouveau_mdp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Commande\usr_commandes.resx">
+      <DependentUpon>usr_commandes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Paramètres\usr_gestion_admin.resx">
+      <DependentUpon>usr_gestion_admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Commandes\frmModifierCommande.resx">
+      <DependentUpon>frmModifierCommande.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Produits\frm_ajout_allergene.resx">
+      <DependentUpon>frm_ajout_allergene.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Produits\frm_ajout_produit.resx">
+      <DependentUpon>frm_ajout_produit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Produits\frm_changer_taux_taxes.resx">
+      <DependentUpon>frm_changer_taux_taxes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Produits\frm_details_produit.resx">
+      <DependentUpon>frm_details_produit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Produits\frm_historique_taxes.resx">
+      <DependentUpon>frm_historique_taxes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Recette\Frm_recette.resx">
+      <DependentUpon>Frm_recette.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Utilisateur\frm_changer_mdp.resx">
+      <DependentUpon>frm_changer_mdp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Menu\frmDietetique.resx">
+      <DependentUpon>frmDietetique.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Utilisateur\frm_modifierNom.resx">
+      <DependentUpon>frm_modifierNom.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Utilisateur\frm_selectionProf.resx">
+      <DependentUpon>frm_selectionProf.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulaires\Connexion\frm_connexion.resx">
+      <DependentUpon>frm_connexion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contrôles utilisateurs\Produits\usr_produits.resx">
+      <DependentUpon>usr_produits.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resources\ic_close_black_24dp_1x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_remove_white_24dp_2x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_remove_white_24dp_1x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_clear_white_24dp_1x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_remove_black_24dp_1x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imageedit_1_7835113469.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-square-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-square-button %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pencil %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-square-button %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="itextsharp.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="itextsharp.pdfa.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="itextsharp.xtra.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rubbish-bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_sync_white_32dp_1x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_arrow_back_white_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_sync_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_sync_black_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_sync_white_36dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baseline_arrow_back_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
